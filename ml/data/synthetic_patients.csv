@@ -1,0 +1,501 @@
+patient_id,age,gender,symptoms,temperature,heart_rate,systolic_bp,diastolic_bp,respiratory_rate,oxygen_saturation,wbc,hemoglobin,platelets,crp,blood_glucose,creatinine,alt,ast,history_diabetes,history_hypertension,history_cardiac,history_respiratory,previous_hospitalization,synthetic_clinical_pattern
+P001,45,Male,"[""Abdominal pain"", ""Fatigue"", ""Vomiting""]",38.8,87,131,79,18,96.6,20.1,13.4,309,73.7,84,0.7,81,166,0,0,0,0,1,Inflammatory Pattern
+P002,49,Male,"[""Chest pain"", ""Dizziness"", ""Breathlessness"", ""Fatigue""]",37.4,107,132,109,20,94.5,11.6,14.5,278,30.3,104,1.04,41,62,1,1,1,0,1,Cardiovascular Pattern
+P003,56,Male,"[""Nausea"", ""Breathlessness"", ""Dizziness""]",37.3,89,164,108,25,94.5,10.8,15.4,235,32.2,141,1.28,43,46,0,0,1,0,0,Cardiovascular Pattern
+P004,63,Female,"[""Weakness"", ""Nausea""]",37.5,76,151,67,22,95.5,8.7,13.1,224,10.7,217,3.94,32,34,1,1,0,0,1,Metabolic Pattern
+P005,38,Male,"[""Vomiting"", ""Abdominal pain"", ""Nausea"", ""Fatigue""]",38.3,82,144,78,17,98.3,18.6,11.9,152,108.2,127,0.82,80,119,0,0,0,0,0,Inflammatory Pattern
+P006,60,Female,"[""Fatigue"", ""Nausea""]",37.7,92,130,105,18,98.3,6.9,12.2,271,21.0,275,2.45,26,44,1,1,0,0,0,Metabolic Pattern
+P007,42,Male,"[""Fever"", ""Fatigue"", ""Abdominal pain"", ""Vomiting""]",38.4,84,112,88,19,96.2,19.9,12.3,351,132.0,119,0.84,111,123,0,0,0,0,1,Inflammatory Pattern
+P008,47,Female,"[""Weakness"", ""Fatigue"", ""Headache""]",37.4,81,155,89,16,97.3,9.4,10.7,200,9.9,151,2.62,36,40,1,1,0,0,0,Metabolic Pattern
+P009,73,Male,"[""Headache""]",37.1,81,120,73,13,98.8,5.2,14.3,252,4.4,89,0.88,34,8,0,0,0,0,0,Low-Risk General
+P010,62,Male,"[""Vomiting"", ""Nausea"", ""Abdominal pain""]",39.0,76,115,89,20,97.5,22.4,12.1,333,70.8,113,1.06,110,107,0,0,0,0,1,Inflammatory Pattern
+P011,71,Other,"[""Dizziness"", ""Nausea"", ""Weakness"", ""Fatigue""]",37.4,95,137,94,18,96.6,10.7,13.8,252,8.2,193,2.37,31,25,1,1,0,0,1,Metabolic Pattern
+P012,51,Other,"[""Nausea"", ""Fatigue"", ""Dizziness"", ""Weakness""]",37.7,104,161,86,21,97.6,7.2,11.5,218,19.7,284,4.4,33,41,1,0,1,0,0,Metabolic Pattern
+P013,58,Male,"[""Nausea"", ""Fatigue"", ""Dizziness"", ""Chest pain""]",36.6,101,180,91,21,93.7,10.0,13.7,249,13.1,86,1.87,66,64,0,1,1,0,1,Cardiovascular Pattern
+P014,49,Male,"[""Nausea"", ""Fever"", ""Abdominal pain""]",38.3,114,110,66,21,98.2,15.7,12.1,292,58.3,96,0.98,156,246,0,0,0,0,1,Inflammatory Pattern
+P015,67,Other,"[""Dizziness"", ""Nausea"", ""Fatigue""]",37.1,122,140,77,20,95.9,8.4,14.3,249,,185,1.31,44,52,0,1,0,0,1,Cardiovascular Pattern
+P016,41,Other,"[""Weakness"", ""Nausea"", ""Dizziness"", ""Fatigue""]",37.7,100,131,85,16,98.2,8.8,12.8,181,17.4,308,2.62,37,30,1,0,1,0,0,Metabolic Pattern
+P017,52,Male,"[""Fatigue"", ""Nausea"", ""Breathlessness"", ""Chest pain""]",37.1,118,167,68,20,93.3,10.7,14.5,174,14.4,164,1.28,36,51,1,0,1,0,0,Cardiovascular Pattern
+P018,48,Other,"[""Headache"", ""Dizziness"", ""Weakness"", ""Fatigue""]",36.8,79,110,99,13,97.7,7.5,13.3,195,17.5,187,4.58,50,47,1,1,0,0,0,Metabolic Pattern
+P019,65,Other,"[""Headache"", ""Weakness"", ""Nausea"", ""Dizziness""]",37.1,81,142,70,16,96.7,7.6,12.0,278,20.1,244,4.51,58,49,1,1,1,0,1,Metabolic Pattern
+P020,58,Male,"[""Headache"", ""Dizziness""]",37.7,74,129,97,14,96.3,6.5,11.7,211,24.2,142,3.23,,,1,1,1,0,1,Metabolic Pattern
+P021,68,Other,"[""Breathlessness"", ""Chest pain"", ""Nausea"", ""Fatigue""]",36.6,87,122,108,21,93.5,9.5,13.4,271,34.9,124,1.38,76,58,0,1,0,0,1,Cardiovascular Pattern
+P022,46,Male,"[""Cough"", ""Fever"", ""Breathlessness""]",38.4,114,143,75,23,91.2,19.6,11.8,195,54.7,99,1.29,36,33,1,1,0,0,0,Respiratory Pattern
+P023,62,Other,"[""Weakness"", ""Fever"", ""Breathlessness"", ""Fatigue""]",38.8,94,115,86,21,92.4,20.1,11.5,258,126.7,94,1.22,17,17,0,1,0,0,0,Respiratory Pattern
+P024,54,Female,"[""Nausea"", ""Abdominal pain"", ""Fatigue"", ""Vomiting""]",38.4,79,126,76,19,98.6,15.0,12.2,326,129.8,97,1.12,123,147,0,0,0,0,0,Inflammatory Pattern
+P025,48,Male,"[""Headache"", ""Fatigue"", ""Dizziness""]",37.0,74,132,91,16,96.9,8.0,14.0,177,17.4,207,2.93,58,44,1,1,0,0,0,Metabolic Pattern
+P026,68,Female,"[""Abdominal pain"", ""Nausea"", ""Fever"", ""Fatigue""]",38.6,89,142,79,19,96.2,16.2,14.8,245,63.7,89,0.71,114,195,0,0,0,0,1,Inflammatory Pattern
+P027,38,Male,"[""Weakness""]",36.9,64,122,77,13,100.0,5.4,15.7,238,2.9,94,0.91,17,16,0,0,0,0,0,Low-Risk General
+P028,67,Other,"[""Nausea"", ""Chest pain"", ""Fatigue""]",37.2,109,162,98,24,92.7,9.2,14.8,228,19.5,141,1.25,43,42,1,1,0,0,1,Cardiovascular Pattern
+P029,42,Male,"[""Fever"", ""Weakness"", ""Fatigue""]",39.8,81,104,71,28,89.5,14.7,12.8,234,68.1,99,1.16,29,50,0,1,0,1,0,Respiratory Pattern
+P030,45,Other,"[""Weakness"", ""Fever"", ""Fatigue"", ""Cough""]",39.2,92,132,92,24,92.1,21.7,13.1,223,53.9,136,0.9,22,42,0,0,0,0,1,Respiratory Pattern
+P031,72,Female,"[""Weakness"", ""Fatigue"", ""Cough""]",38.2,85,107,80,20,86.4,14.3,11.6,260,69.5,146,0.82,24,20,0,1,0,1,1,Respiratory Pattern
+P032,42,Male,"[""Fatigue"", ""Breathlessness"", ""Weakness""]",39.6,90,136,71,25,87.1,13.5,13.7,259,50.9,111,1.26,37,26,0,1,0,1,0,Respiratory Pattern
+P033,30,Male,"[""Fatigue"", ""Fever"", ""Nausea"", ""Vomiting""]",39.6,100,132,77,14,97.2,16.5,13.2,389,132.6,71,1.18,216,123,0,0,0,0,0,Inflammatory Pattern
+P034,59,Male,"[""Chest pain"", ""Fatigue"", ""Nausea"", ""Dizziness""]",37.0,105,146,66,22,93.5,10.8,14.6,292,34.3,85,1.34,30,74,0,0,1,0,1,Cardiovascular Pattern
+P035,59,Other,"[""Fatigue""]",36.5,83,117,77,14,98.7,6.5,13.9,260,2.1,88,0.77,17,18,0,0,0,0,0,Low-Risk General
+P036,46,Male,"[""Nausea"", ""Headache"", ""Weakness""]",37.4,97,131,85,19,95.3,10.8,14.0,178,19.7,361,3.33,26,92,1,0,1,0,1,Metabolic Pattern
+P037,66,Male,"[""Abdominal pain"", ""Fatigue"", ""Vomiting"", ""Nausea""]",39.5,93,141,69,19,96.7,15.1,12.4,417,119.2,118,0.78,57,197,0,0,0,0,1,Inflammatory Pattern
+P038,72,Male,"[""Dizziness"", ""Nausea"", ""Fatigue""]",37.0,118,185,106,18,94.3,8.5,12.7,332,37.2,96,1.27,58,24,0,1,0,0,1,Cardiovascular Pattern
+P039,52,Other,"[""Dizziness"", ""Chest pain"", ""Breathlessness""]",36.9,129,154,88,17,93.7,10.7,13.9,283,,169,1.55,35,32,0,1,1,0,1,Cardiovascular Pattern
+P040,21,Male,"[""Headache""]",37.1,77,124,71,12,99.9,6.5,15.6,270,,102,0.9,7,33,0,0,0,0,0,Low-Risk General
+P041,58,Male,"[""Nausea"", ""Dizziness"", ""Fatigue"", ""Weakness""]",36.9,84,180,83,17,95.7,9.4,13.9,194,8.9,164,4.22,83,49,1,1,0,0,0,Metabolic Pattern
+P042,71,Other,"[""Vomiting"", ""Nausea"", ""Abdominal pain""]",39.0,97,115,81,17,97.1,21.7,13.6,356,65.8,116,0.95,137,151,0,0,0,0,0,Inflammatory Pattern
+P043,58,Male,"[""Dizziness"", ""Nausea"", ""Weakness"", ""Fatigue""]",36.7,86,125,89,16,98.2,6.8,10.8,167,18.3,276,3.81,49,30,1,0,0,0,0,Metabolic Pattern
+P044,42,Other,"[""Fever"", ""Fatigue"", ""Abdominal pain""]",38.7,101,109,77,16,96.9,15.8,14.8,283,62.8,94,0.75,57,174,0,0,0,0,0,Inflammatory Pattern
+P045,31,Other,"[""Weakness"", ""Fatigue""]",37.1,75,114,60,13,99.2,5.7,15.3,230,1.4,110,0.85,30,24,0,0,0,0,0,Low-Risk General
+P046,19,Other,"[""Weakness""]",37.1,75,112,79,17,98.6,6.2,13.0,280,2.1,80,0.76,20,22,0,0,0,0,0,Low-Risk General
+P047,68,Female,"[""Nausea"", ""Chest pain"", ""Fatigue"", ""Dizziness""]",36.7,120,135,85,20,94.2,9.4,13.1,305,,168,1.25,50,38,0,1,1,0,1,Cardiovascular Pattern
+P048,45,Male,"[""Breathlessness"", ""Weakness"", ""Fever"", ""Fatigue""]",39.1,96,131,74,24,90.2,18.5,12.6,194,82.1,149,1.08,39,39,0,0,0,0,1,Respiratory Pattern
+P049,40,Other,"[""Fever"", ""Fatigue"", ""Weakness"", ""Breathlessness""]",39.0,106,123,84,29,87.7,19.7,11.3,199,98.8,108,1.27,30,17,0,1,0,1,1,Respiratory Pattern
+P050,74,Male,"[""Fever"", ""Fatigue"", ""Vomiting""]",39.4,70,132,66,17,97.9,22.5,13.7,323,92.6,121,0.88,122,156,0,0,0,0,0,Inflammatory Pattern
+P051,79,Female,"[""Weakness"", ""Fatigue"", ""Cough""]",39.3,113,151,77,33,90.3,13.5,13.7,287,87.6,151,1.29,29,52,1,0,0,1,0,Respiratory Pattern
+P052,18,Female,"[""Vomiting"", ""Fever"", ""Nausea"", ""Fatigue""]",39.2,112,128,73,21,97.7,17.3,12.4,402,106.2,73,0.79,182,176,0,0,0,0,0,Inflammatory Pattern
+P053,18,Male,"[""Fatigue"", ""Fever"", ""Vomiting"", ""Nausea""]",39.5,80,109,63,18,97.6,20.1,13.0,218,85.8,106,0.83,146,194,0,0,0,0,1,Inflammatory Pattern
+P054,29,Male,"[""Weakness""]",36.7,72,113,73,15,99.7,7.7,15.8,269,2.1,103,0.97,22,31,0,0,0,0,0,Low-Risk General
+P055,57,Other,"[""Weakness"", ""Nausea"", ""Headache""]",37.7,113,159,87,16,96.8,10.8,13.4,248,21.6,264,3.83,53,54,1,1,0,0,0,Metabolic Pattern
+P056,54,Other,"[""Fatigue"", ""Chest pain"", ""Nausea""]",37.4,135,127,87,22,93.7,9.1,12.3,246,14.6,170,1.64,35,56,1,0,1,0,0,Cardiovascular Pattern
+P057,55,Male,"[""Fatigue"", ""Fever"", ""Abdominal pain""]",39.4,96,122,82,19,97.9,13.7,14.4,395,97.5,87,1.05,110,131,0,0,0,0,1,Inflammatory Pattern
+P058,48,Other,"[""Weakness"", ""Breathlessness"", ""Fever""]",40.1,81,120,79,24,92.5,12.0,12.7,201,75.4,154,0.84,32,52,1,0,0,0,1,Respiratory Pattern
+P059,24,Other,"[""Nausea"", ""Abdominal pain"", ""Vomiting""]",39.4,100,110,79,20,96.1,23.3,13.3,320,139.1,100,1.15,115,156,0,0,0,0,0,Inflammatory Pattern
+P060,68,Female,"[""Fatigue"", ""Weakness"", ""Cough"", ""Breathlessness""]",40.1,87,128,92,22,92.0,19.1,11.4,185,91.4,97,0.99,44,43,0,0,0,1,0,Respiratory Pattern
+P061,25,Female,"[""Headache""]",36.9,66,110,80,14,98.1,8.0,15.4,229,,98,0.96,25,12,0,0,0,0,0,Low-Risk General
+P062,79,Female,"[""Headache"", ""Fatigue"", ""Nausea""]",36.8,82,152,83,22,95.1,7.3,12.3,227,21.2,227,4.0,49,60,1,1,0,0,1,Metabolic Pattern
+P063,53,Other,"[""Breathlessness"", ""Fever"", ""Weakness"", ""Cough""]",40.0,103,142,69,30,92.0,16.8,11.5,228,62.1,153,0.82,45,24,0,0,0,0,1,Respiratory Pattern
+P064,41,Other,"[""Fever"", ""Abdominal pain"", ""Fatigue"", ""Nausea""]",39.2,78,128,67,24,98.3,20.0,12.1,372,132.4,110,0.73,143,160,0,0,0,0,1,Inflammatory Pattern
+P065,79,Other,"[""Breathlessness"", ""Dizziness"", ""Chest pain"", ""Nausea""]",37.2,92,176,107,17,92.8,10.4,15.6,207,20.8,149,1.78,37,86,0,1,1,0,1,Cardiovascular Pattern
+P066,47,Other,"[""Weakness"", ""Fatigue""]",36.8,76,106,75,15,98.1,6.5,14.7,263,1.8,107,0.99,20,10,0,0,0,0,0,Low-Risk General
+P067,69,Other,"[""Dizziness"", ""Fatigue"", ""Chest pain""]",36.7,116,196,107,23,96.3,12.0,15.3,204,36.3,135,1.14,30,68,0,1,1,0,1,Cardiovascular Pattern
+P068,54,Male,"[""Nausea"", ""Headache""]",37.3,96,122,87,17,95.4,7.1,11.4,182,8.8,277,2.24,31,36,1,1,0,0,0,Metabolic Pattern
+P069,73,Other,"[""Vomiting"", ""Fatigue"", ""Fever"", ""Nausea""]",39.4,118,127,88,18,96.4,16.7,13.2,309,93.8,96,0.9,91,117,0,0,0,0,0,Inflammatory Pattern
+P070,60,Other,"[""Nausea"", ""Dizziness"", ""Breathlessness"", ""Chest pain""]",36.9,90,110,79,18,95.3,10.8,12.1,123,32.4,154,1.7,18,34,0,1,1,0,0,Cardiovascular Pattern
+P071,26,Male,"[""Abdominal pain"", ""Fever"", ""Nausea""]",38.8,87,113,81,14,97.4,22.3,14.0,309,115.0,89,1.3,118,91,0,0,0,0,0,Inflammatory Pattern
+P072,56,Other,"[""Nausea"", ""Headache"", ""Fatigue"", ""Dizziness""]",36.9,80,178,103,16,97.5,9.6,12.2,159,23.9,248,4.05,40,59,1,1,0,0,1,Metabolic Pattern
+P073,53,Male,"[""Fatigue"", ""Breathlessness"", ""Weakness"", ""Cough""]",38.5,120,133,74,22,86.8,19.3,12.1,244,49.3,139,0.94,27,43,0,0,0,1,0,Respiratory Pattern
+P074,53,Female,"[""Nausea"", ""Vomiting"", ""Fatigue"", ""Fever""]",39.2,100,118,68,17,98.2,23.3,14.7,366,69.9,151,1.25,170,139,0,0,0,0,0,Inflammatory Pattern
+P075,48,Male,"[""Fatigue""]",36.6,72,127,75,10,99.7,6.6,13.7,253,1.0,98,0.8,28,28,0,0,0,0,0,Low-Risk General
+P076,67,Male,"[""Fever"", ""Vomiting"", ""Abdominal pain"", ""Nausea""]",39.2,98,129,74,21,96.8,15.6,14.1,358,116.4,110,0.71,85,76,0,0,0,0,1,Inflammatory Pattern
+P077,82,Other,"[""Chest pain"", ""Dizziness"", ""Breathlessness"", ""Nausea""]",36.7,95,161,103,20,93.9,10.0,13.9,178,26.0,127,1.22,30,49,1,1,1,0,1,Cardiovascular Pattern
+P078,28,Other,"[""Dizziness"", ""Weakness""]",36.8,94,128,81,14,96.7,10.5,12.1,229,,249,3.62,24,34,1,1,1,0,1,Metabolic Pattern
+P079,55,Female,"[""Fever"", ""Fatigue"", ""Weakness""]",38.7,105,131,86,20,93.2,15.4,15.0,197,83.1,146,0.85,27,58,1,0,0,1,0,Respiratory Pattern
+P080,28,Male,"[""Fatigue""]",36.8,70,109,72,15,98.9,5.5,13.7,292,0.6,77,0.96,9,13,0,0,0,0,0,Low-Risk General
+P081,73,Other,"[""Cough"", ""Fever"", ""Weakness""]",39.0,105,103,77,25,93.5,14.0,15.1,232,94.0,86,1.29,23,37,0,0,0,1,1,Respiratory Pattern
+P082,74,Male,"[""Fatigue"", ""Fever"", ""Abdominal pain"", ""Nausea""]",39.7,86,100,74,21,96.4,17.1,14.1,194,80.6,121,1.12,159,35,0,0,0,0,0,Inflammatory Pattern
+P083,57,Male,"[""Fatigue"", ""Breathlessness"", ""Fever""]",39.2,112,130,79,21,86.3,12.3,14.6,307,94.9,116,0.93,25,43,0,1,0,1,0,Respiratory Pattern
+P084,28,Other,"[""Fatigue""]",37.1,58,113,70,16,98.7,5.9,14.8,234,4.4,92,0.89,30,10,0,0,0,0,0,Low-Risk General
+P085,54,Male,"[""Dizziness"", ""Headache"", ""Weakness"", ""Fatigue""]",36.8,86,144,99,17,98.3,8.0,13.2,260,16.3,226,3.34,20,40,1,1,0,0,1,Metabolic Pattern
+P086,23,Other,"[""Headache""]",37.2,65,106,66,17,98.5,7.5,13.0,216,3.0,91,0.97,,,0,0,0,0,0,Low-Risk General
+P087,75,Male,"[""Nausea"", ""Fatigue"", ""Dizziness"", ""Weakness""]",37.6,89,148,85,17,95.7,8.9,13.4,222,12.5,201,3.2,53,2,1,1,0,0,0,Metabolic Pattern
+P088,29,Male,"[""Fever"", ""Fatigue"", ""Vomiting"", ""Nausea""]",38.1,103,122,68,19,98.4,19.2,14.5,370,,128,0.83,188,62,0,0,0,0,0,Inflammatory Pattern
+P089,31,Other,"[""Headache"", ""Weakness""]",36.9,71,118,66,14,98.3,5.8,15.9,258,2.1,100,1.0,18,37,0,0,0,0,0,Low-Risk General
+P090,59,Male,"[""Fatigue""]",36.6,81,123,69,13,99.9,6.1,15.2,258,1.4,79,0.92,18,27,0,0,0,0,0,Low-Risk General
+P091,52,Female,"[""Vomiting"", ""Nausea"", ""Fever""]",39.3,77,106,66,18,96.0,16.4,12.8,336,77.9,123,0.97,146,91,0,0,0,0,1,Inflammatory Pattern
+P092,50,Female,"[""Fatigue"", ""Nausea"", ""Weakness""]",37.1,106,159,108,13,97.0,7.3,11.8,231,16.4,272,2.27,30,47,1,1,1,0,1,Metabolic Pattern
+P093,48,Male,"[""Headache"", ""Nausea""]",37.6,89,118,100,15,97.9,9.4,12.6,225,13.1,178,3.39,31,48,1,1,0,0,0,Metabolic Pattern
+P094,73,Female,"[""Dizziness"", ""Chest pain"", ""Nausea"", ""Fatigue""]",37.2,88,147,69,18,94.1,10.9,13.8,222,33.3,191,1.72,25,59,0,1,1,0,0,Cardiovascular Pattern
+P095,22,Female,"[""Weakness"", ""Headache""]",37.0,67,107,85,12,98.2,7.7,15.3,238,1.9,89,1.09,20,20,0,0,0,0,0,Low-Risk General
+P096,43,Male,"[""Nausea"", ""Weakness""]",37.2,74,139,79,16,96.4,10.0,12.6,173,8.4,239,2.38,11,60,1,1,0,0,1,Metabolic Pattern
+P097,54,Female,"[""Breathlessness"", ""Fever"", ""Cough"", ""Fatigue""]",39.8,106,149,94,21,87.2,21.8,12.1,199,59.8,142,1.38,42,36,1,0,0,1,1,Respiratory Pattern
+P098,68,Female,"[""Weakness"", ""Dizziness""]",36.9,82,114,73,15,96.9,8.1,11.2,254,16.3,288,4.71,39,54,1,1,1,0,1,Metabolic Pattern
+P099,62,Female,"[""Vomiting"", ""Abdominal pain"", ""Fever""]",38.5,88,130,90,15,96.4,17.2,12.2,305,109.0,104,1.3,64,85,0,0,0,0,1,Inflammatory Pattern
+P100,53,Female,"[""Fatigue"", ""Cough"", ""Fever""]",39.8,115,123,66,25,89.1,20.3,13.2,270,109.7,128,0.98,30,49,1,0,0,0,0,Respiratory Pattern
+P101,63,Other,"[""Fatigue"", ""Cough"", ""Weakness""]",38.3,91,140,67,20,89.4,15.2,14.7,442,82.3,168,0.94,31,40,0,0,0,0,1,Respiratory Pattern
+P102,43,Male,"[""Weakness"", ""Breathlessness"", ""Fatigue"", ""Fever""]",38.8,99,116,79,32,93.4,18.6,11.4,345,123.1,114,1.4,35,30,0,1,0,0,0,Respiratory Pattern
+P103,42,Other,"[""Headache"", ""Fatigue"", ""Nausea""]",37.6,77,143,78,16,98.1,8.5,12.2,148,17.9,305,2.35,23,61,1,1,0,0,0,Metabolic Pattern
+P104,31,Female,"[""Fatigue"", ""Weakness""]",36.7,62,113,70,15,99.4,5.2,13.3,258,1.0,78,1.04,21,24,0,0,0,0,0,Low-Risk General
+P105,54,Male,"[""Abdominal pain"", ""Vomiting"", ""Nausea"", ""Fatigue""]",38.7,89,128,74,16,98.1,15.6,13.8,341,114.8,137,0.78,125,151,0,0,0,0,1,Inflammatory Pattern
+P106,50,Female,"[""Fatigue""]",36.5,62,126,80,16,99.8,5.5,15.7,250,4.5,85,0.76,21,23,0,0,0,0,0,Low-Risk General
+P107,45,Other,"[""Nausea"", ""Abdominal pain"", ""Fever"", ""Vomiting""]",39.4,69,110,73,21,96.4,16.0,11.8,298,102.0,92,1.17,88,104,0,0,0,0,0,Inflammatory Pattern
+P108,31,Other,"[""Nausea"", ""Fatigue"", ""Headache""]",37.2,96,154,78,15,98.4,10.9,13.8,263,17.7,313,3.09,34,20,1,0,0,0,1,Metabolic Pattern
+P109,69,Male,"[""Weakness"", ""Fatigue"", ""Cough"", ""Breathlessness""]",38.3,98,107,78,24,89.8,13.6,14.6,302,90.6,97,1.3,40,33,0,0,0,0,1,Respiratory Pattern
+P110,50,Other,"[""Nausea"", ""Weakness""]",36.7,83,117,99,21,96.8,10.0,13.0,220,21.3,262,2.83,64,26,1,1,0,0,1,Metabolic Pattern
+P111,39,Male,"[""Headache"", ""Weakness""]",37.0,88,141,92,14,95.8,8.8,10.7,181,22.7,241,3.13,61,61,1,0,0,0,0,Metabolic Pattern
+P112,82,Female,"[""Dizziness"", ""Chest pain"", ""Nausea"", ""Breathlessness""]",36.6,107,149,100,24,92.2,9.2,15.5,291,20.1,95,1.08,26,52,1,1,1,0,1,Cardiovascular Pattern
+P113,32,Male,"[""Headache""]",36.4,61,113,78,12,99.8,8.3,13.0,305,3.1,103,0.74,12,18,0,0,0,0,0,Low-Risk General
+P114,32,Other,"[""Headache"", ""Weakness""]",37.1,79,112,74,13,99.9,5.3,13.3,293,0.8,108,0.93,5,31,0,0,0,0,0,Low-Risk General
+P115,59,Female,"[""Fatigue"", ""Dizziness"", ""Chest pain"", ""Nausea""]",37.5,86,175,113,22,94.0,8.7,12.5,253,21.3,144,1.42,23,52,0,1,1,0,0,Cardiovascular Pattern
+P116,53,Other,"[""Breathlessness"", ""Fatigue"", ""Weakness""]",38.2,95,154,93,33,92.4,17.3,13.5,279,112.5,131,0.87,48,42,1,1,0,1,0,Respiratory Pattern
+P117,59,Male,"[""Headache"", ""Weakness"", ""Fatigue"", ""Dizziness""]",36.7,88,146,86,18,97.5,8.7,11.8,190,15.3,173,2.84,71,34,1,1,0,0,0,Metabolic Pattern
+P118,57,Male,"[""Headache"", ""Weakness"", ""Dizziness""]",36.8,97,129,76,14,97.8,11.0,13.2,178,16.2,288,4.56,30,41,1,1,0,0,1,Metabolic Pattern
+P119,37,Female,"[""Cough"", ""Fever"", ""Fatigue""]",39.5,98,125,100,26,93.5,13.8,14.8,251,112.8,95,1.31,47,42,0,0,0,0,1,Respiratory Pattern
+P120,70,Other,"[""Headache"", ""Nausea""]",36.8,91,143,86,16,96.7,8.0,12.6,222,11.0,197,4.27,48,38,1,1,0,0,1,Metabolic Pattern
+P121,47,Male,"[""Nausea"", ""Chest pain"", ""Breathlessness"", ""Dizziness""]",36.9,135,183,95,17,94.2,8.7,14.8,264,,177,1.32,26,31,1,1,1,0,1,Cardiovascular Pattern
+P122,34,Other,"[""Weakness"", ""Nausea""]",37.7,94,139,68,15,95.5,9.9,11.3,234,23.1,236,2.34,39,22,1,0,0,0,1,Metabolic Pattern
+P123,63,Male,"[""Fatigue"", ""Breathlessness"", ""Nausea"", ""Dizziness""]",37.5,105,144,107,23,94.6,11.2,12.9,170,23.7,142,1.02,36,47,1,0,1,0,1,Cardiovascular Pattern
+P124,68,Other,"[""Chest pain"", ""Fatigue"", ""Dizziness"", ""Nausea""]",37.2,105,157,82,28,93.8,10.0,15.7,175,19.7,127,1.09,25,62,0,1,1,0,1,Cardiovascular Pattern
+P125,62,Male,"[""Fatigue"", ""Headache"", ""Dizziness""]",37.0,88,127,94,16,96.9,7.3,13.6,195,14.3,203,3.36,48,43,1,1,0,0,0,Metabolic Pattern
+P126,65,Other,"[""Dizziness"", ""Fatigue""]",37.6,92,126,70,16,96.7,10.5,12.2,285,20.1,291,3.46,66,27,1,1,0,0,1,Metabolic Pattern
+P127,36,Male,"[""Headache"", ""Fatigue""]",36.6,68,119,72,13,99.5,7.8,13.3,232,2.7,69,0.91,17,24,0,0,0,0,0,Low-Risk General
+P128,44,Male,"[""Nausea"", ""Fatigue"", ""Vomiting"", ""Abdominal pain""]",39.7,90,119,75,22,97.0,17.5,12.8,228,,117,0.87,163,193,0,0,0,0,0,Inflammatory Pattern
+P129,74,Male,"[""Dizziness"", ""Chest pain"", ""Breathlessness"", ""Nausea""]",36.8,115,174,78,17,93.0,8.7,15.0,129,32.1,115,1.54,61,64,0,1,1,0,1,Cardiovascular Pattern
+P130,54,Male,"[""Fatigue"", ""Fever"", ""Abdominal pain"", ""Vomiting""]",38.3,101,115,80,19,96.2,17.0,12.2,264,88.7,131,1.25,110,106,0,0,0,0,0,Inflammatory Pattern
+P131,50,Other,"[""Fatigue"", ""Nausea"", ""Dizziness""]",37.1,92,152,98,20,97.3,9.5,11.4,192,15.0,326,4.17,48,72,1,1,0,0,1,Metabolic Pattern
+P132,65,Other,"[""Fatigue"", ""Nausea"", ""Breathlessness"", ""Dizziness""]",36.8,87,160,103,18,92.5,9.8,14.6,264,28.8,111,1.55,37,56,1,0,1,0,0,Cardiovascular Pattern
+P133,39,Female,"[""Headache""]",37.0,80,121,68,13,99.4,7.3,16.5,205,1.5,81,0.71,25,21,0,0,0,0,0,Low-Risk General
+P134,51,Other,"[""Dizziness"", ""Nausea"", ""Chest pain"", ""Fatigue""]",36.8,85,160,95,17,96.1,12.2,15.6,221,17.8,119,1.78,12,66,1,1,1,0,1,Cardiovascular Pattern
+P135,79,Other,"[""Fatigue"", ""Headache"", ""Nausea"", ""Weakness""]",37.1,97,148,84,18,98.5,10.5,14.0,208,10.4,260,2.32,37,21,1,1,1,0,0,Metabolic Pattern
+P136,88,Male,"[""Fatigue"", ""Weakness"", ""Nausea""]",37.1,78,149,87,17,96.9,9.8,13.8,262,17.0,187,2.15,69,42,1,1,0,0,1,Metabolic Pattern
+P137,67,Male,"[""Fatigue"", ""Dizziness"", ""Breathlessness"", ""Chest pain""]",36.9,98,168,91,23,96.1,9.2,12.9,341,30.9,178,1.53,57,56,0,1,0,0,1,Cardiovascular Pattern
+P138,43,Other,"[""Weakness""]",37.1,75,119,73,15,98.5,7.5,13.7,248,2.2,90,0.74,12,22,0,0,0,0,0,Low-Risk General
+P139,32,Other,"[""Headache""]",36.8,68,107,69,17,98.7,6.4,13.6,167,2.7,107,0.89,16,24,0,0,0,0,0,Low-Risk General
+P140,57,Female,"[""Fatigue"", ""Dizziness""]",37.5,94,149,91,22,96.0,8.6,10.8,215,12.9,252,4.26,35,63,1,1,0,0,1,Metabolic Pattern
+P141,81,Female,"[""Fever"", ""Breathlessness"", ""Cough"", ""Weakness""]",38.3,83,114,88,28,89.6,15.9,15.0,194,59.2,152,1.39,43,38,0,0,0,1,1,Respiratory Pattern
+P142,40,Other,"[""Fever"", ""Fatigue"", ""Abdominal pain""]",39.6,91,123,77,18,98.6,18.8,14.1,302,136.2,100,1.22,56,130,0,0,0,0,0,Inflammatory Pattern
+P143,49,Other,"[""Dizziness"", ""Fatigue"", ""Headache"", ""Nausea""]",37.2,79,123,90,18,96.1,8.0,11.5,267,16.6,193,4.31,40,55,1,1,1,0,0,Metabolic Pattern
+P144,53,Male,"[""Fever"", ""Fatigue"", ""Abdominal pain""]",39.0,101,122,68,16,96.9,18.6,12.2,240,85.9,71,0.73,133,194,0,0,0,0,0,Inflammatory Pattern
+P145,39,Other,"[""Abdominal pain"", ""Vomiting"", ""Nausea""]",39.5,97,133,76,14,96.1,14.8,12.0,297,115.9,113,1.07,103,184,0,0,0,0,0,Inflammatory Pattern
+P146,75,Male,"[""Abdominal pain"", ""Fatigue"", ""Nausea"", ""Vomiting""]",39.2,102,119,66,19,96.1,23.3,14.4,238,133.3,117,0.81,60,101,0,0,0,0,1,Inflammatory Pattern
+P147,42,Other,"[""Fatigue""]",36.7,66,114,80,15,99.2,8.1,14.8,232,3.9,82,0.99,20,19,0,0,0,0,0,Low-Risk General
+P148,42,Other,"[""Nausea"", ""Vomiting"", ""Fever""]",38.2,87,134,65,17,97.3,21.2,14.4,283,123.7,152,1.01,149,144,0,0,0,0,0,Inflammatory Pattern
+P149,55,Female,"[""Breathlessness"", ""Cough"", ""Weakness""]",38.2,95,130,77,29,92.5,19.3,13.5,199,65.2,134,0.97,,,0,0,0,0,1,Respiratory Pattern
+P150,44,Other,"[""Breathlessness"", ""Dizziness"", ""Fatigue"", ""Chest pain""]",37.4,122,151,106,25,92.8,8.0,14.1,205,26.5,165,1.12,30,41,1,1,1,0,1,Cardiovascular Pattern
+P151,39,Other,"[""Headache"", ""Fatigue""]",36.8,66,127,74,15,99.1,6.4,14.2,229,4.0,86,0.82,16,33,0,0,0,0,0,Low-Risk General
+P152,40,Other,"[""Abdominal pain"", ""Vomiting"", ""Nausea""]",38.4,79,97,78,19,98.7,17.2,14.3,344,116.5,125,0.71,48,130,0,0,0,0,0,Inflammatory Pattern
+P153,68,Other,"[""Breathlessness"", ""Chest pain"", ""Dizziness""]",36.6,126,140,79,23,92.5,10.0,14.8,204,37.4,147,1.85,18,47,0,1,1,0,1,Cardiovascular Pattern
+P154,47,Male,"[""Headache"", ""Dizziness"", ""Weakness""]",37.4,86,143,82,14,97.2,9.3,13.1,156,9.2,200,4.61,65,57,1,1,1,0,0,Metabolic Pattern
+P155,51,Female,"[""Fatigue"", ""Vomiting"", ""Fever"", ""Abdominal pain""]",38.5,103,149,62,21,98.9,13.1,14.6,245,67.0,140,0.94,140,119,0,0,0,0,1,Inflammatory Pattern
+P156,56,Other,"[""Cough"", ""Weakness"", ""Fever""]",39.4,101,135,75,20,86.4,19.4,15.5,191,51.2,114,1.2,31,42,0,0,0,1,0,Respiratory Pattern
+P157,52,Male,"[""Weakness"", ""Cough"", ""Breathlessness"", ""Fatigue""]",39.8,113,136,80,22,91.3,18.2,12.2,340,75.6,115,1.09,23,15,0,1,0,0,1,Respiratory Pattern
+P158,40,Male,"[""Weakness"", ""Headache""]",37.0,84,108,68,12,99.2,7.7,13.7,276,4.1,94,0.92,19,20,0,0,0,0,0,Low-Risk General
+P159,65,Female,"[""Headache"", ""Nausea""]",37.2,96,125,73,17,95.6,8.8,12.1,158,11.0,309,4.71,38,40,1,1,1,0,0,Metabolic Pattern
+P160,44,Male,"[""Fatigue"", ""Weakness"", ""Cough"", ""Fever""]",38.2,98,122,95,23,88.1,19.3,13.6,216,77.2,114,1.15,35,32,1,0,0,1,1,Respiratory Pattern
+P161,74,Other,"[""Nausea"", ""Fatigue"", ""Abdominal pain"", ""Fever""]",38.4,97,127,85,18,96.7,21.9,14.0,280,95.9,101,0.8,129,145,0,0,0,0,1,Inflammatory Pattern
+P162,43,Male,"[""Abdominal pain"", ""Nausea"", ""Fever""]",39.7,83,120,90,18,98.6,21.0,14.4,349,106.6,110,0.98,93,144,0,0,0,0,0,Inflammatory Pattern
+P163,40,Other,"[""Fever"", ""Abdominal pain"", ""Fatigue"", ""Nausea""]",38.7,88,129,81,21,97.3,14.6,11.8,255,95.4,110,1.17,116,115,0,0,0,0,0,Inflammatory Pattern
+P164,33,Other,"[""Weakness"", ""Fatigue""]",36.7,81,120,77,18,99.6,6.3,15.1,246,3.3,71,0.74,27,29,0,0,0,0,0,Low-Risk General
+P165,58,Other,"[""Nausea"", ""Chest pain"", ""Dizziness""]",36.5,115,139,82,19,92.7,10.6,13.0,279,34.2,110,1.25,46,35,1,1,1,0,1,Cardiovascular Pattern
+P166,48,Female,"[""Breathlessness"", ""Chest pain"", ""Dizziness"", ""Fatigue""]",37.0,107,144,100,23,93.5,10.0,14.8,232,37.1,120,1.0,47,53,0,1,1,0,1,Cardiovascular Pattern
+P167,54,Female,"[""Breathlessness"", ""Fatigue"", ""Nausea""]",36.5,98,179,75,19,95.5,9.8,14.8,236,28.0,124,1.59,,,1,1,1,0,1,Cardiovascular Pattern
+P168,45,Male,"[""Fatigue"", ""Vomiting"", ""Nausea"", ""Fever""]",38.4,108,118,77,19,96.5,18.6,13.5,255,64.9,114,1.01,122,202,0,0,0,0,0,Inflammatory Pattern
+P169,66,Female,"[""Fatigue"", ""Chest pain"", ""Breathlessness"", ""Nausea""]",36.8,84,131,112,21,95.6,9.3,13.4,308,25.9,131,1.26,28,23,1,1,1,0,1,Cardiovascular Pattern
+P170,69,Other,"[""Fatigue"", ""Cough"", ""Fever""]",39.6,107,120,84,27,90.6,13.1,11.5,325,101.4,106,1.17,33,20,1,0,0,0,1,Respiratory Pattern
+P171,41,Female,"[""Fatigue"", ""Headache""]",37.0,84,124,81,10,98.1,6.2,16.0,288,3.6,86,0.91,22,23,0,0,0,0,0,Low-Risk General
+P172,59,Female,"[""Cough"", ""Breathlessness"", ""Fever"", ""Weakness""]",39.1,93,118,75,25,91.3,15.4,14.8,254,56.1,140,1.15,32,40,1,1,0,1,1,Respiratory Pattern
+P173,64,Male,"[""Fatigue"", ""Breathlessness"", ""Cough"", ""Fever""]",38.9,114,126,78,26,90.7,16.2,12.5,207,75.7,71,0.95,23,41,0,0,0,1,0,Respiratory Pattern
+P174,46,Female,"[""Fatigue"", ""Fever"", ""Vomiting"", ""Nausea""]",39.6,88,129,74,17,96.5,21.9,12.7,256,127.2,95,0.74,142,170,0,0,0,0,1,Inflammatory Pattern
+P175,64,Female,"[""Fatigue"", ""Fever"", ""Nausea"", ""Abdominal pain""]",38.3,82,144,80,15,98.1,13.9,12.1,188,63.8,152,1.03,161,189,0,0,0,0,0,Inflammatory Pattern
+P176,59,Other,"[""Breathlessness"", ""Cough"", ""Fever"", ""Fatigue""]",39.0,112,141,83,25,88.7,21.1,14.9,160,124.5,135,1.13,48,56,0,0,0,1,0,Respiratory Pattern
+P177,41,Other,"[""Abdominal pain"", ""Fever"", ""Nausea""]",38.7,106,121,85,24,98.5,16.8,13.1,310,55.7,157,0.99,,,0,0,0,0,1,Inflammatory Pattern
+P178,64,Female,"[""Fatigue"", ""Breathlessness"", ""Chest pain"", ""Nausea""]",37.4,111,162,87,18,95.6,10.4,14.8,231,25.8,190,1.24,42,54,1,1,1,0,1,Cardiovascular Pattern
+P179,75,Male,"[""Chest pain"", ""Dizziness"", ""Breathlessness""]",36.6,115,152,98,21,93.0,9.3,15.1,244,25.0,102,1.03,56,74,1,1,1,0,1,Cardiovascular Pattern
+P180,72,Female,"[""Chest pain"", ""Breathlessness"", ""Fatigue""]",37.3,87,165,111,21,95.5,9.9,15.9,172,20.1,148,1.29,36,44,0,1,1,0,0,Cardiovascular Pattern
+P181,41,Male,"[""Fatigue"", ""Headache""]",36.5,71,117,78,15,98.1,7.7,14.7,245,2.9,88,0.76,24,32,0,0,0,0,0,Low-Risk General
+P182,56,Male,"[""Nausea"", ""Abdominal pain"", ""Fever"", ""Fatigue""]",38.4,117,119,78,13,97.3,15.1,13.9,289,131.4,123,0.99,90,155,0,0,0,0,0,Inflammatory Pattern
+P183,44,Other,"[""Chest pain"", ""Breathlessness"", ""Fatigue""]",36.8,115,153,109,25,93.7,8.0,12.1,240,34.3,144,1.65,29,35,1,1,1,0,1,Cardiovascular Pattern
+P184,31,Male,"[""Fatigue"", ""Abdominal pain"", ""Fever""]",39.5,112,142,81,22,96.3,19.3,14.4,269,114.6,94,0.85,83,190,0,0,0,0,1,Inflammatory Pattern
+P185,36,Male,"[""Dizziness"", ""Headache"", ""Weakness""]",37.6,90,162,92,13,97.9,6.9,11.3,198,16.8,269,3.14,51,49,1,1,0,0,0,Metabolic Pattern
+P186,65,Other,"[""Fever"", ""Fatigue"", ""Abdominal pain"", ""Vomiting""]",39.4,82,116,71,15,97.8,23.3,14.7,116,126.8,93,0.95,68,70,0,0,0,0,1,Inflammatory Pattern
+P187,70,Other,"[""Fatigue"", ""Nausea"", ""Chest pain"", ""Dizziness""]",37.6,104,137,89,23,93.4,8.2,15.4,238,12.6,163,1.25,19,26,0,1,1,0,1,Cardiovascular Pattern
+P188,49,Male,"[""Nausea"", ""Fatigue"", ""Dizziness""]",37.1,102,129,85,13,95.6,10.2,12.9,132,18.1,189,2.91,42,23,1,1,1,0,0,Metabolic Pattern
+P189,68,Male,"[""Fatigue"", ""Chest pain"", ""Breathlessness""]",37.1,102,145,112,18,92.7,10.7,16.0,301,37.2,140,1.08,20,19,1,1,1,0,0,Cardiovascular Pattern
+P190,71,Female,"[""Breathlessness"", ""Fatigue"", ""Dizziness""]",36.7,94,169,59,17,94.4,8.3,13.1,178,27.0,162,1.1,27,56,1,1,1,0,0,Cardiovascular Pattern
+P191,25,Female,"[""Headache""]",36.9,65,125,84,17,98.5,7.2,13.5,279,3.8,89,1.02,28,21,0,0,0,0,0,Low-Risk General
+P192,70,Other,"[""Weakness"", ""Fatigue"", ""Breathlessness"", ""Fever""]",39.6,96,115,92,22,87.9,12.1,11.9,246,84.5,106,1.37,45,42,0,0,0,1,1,Respiratory Pattern
+P193,48,Female,"[""Fatigue"", ""Chest pain"", ""Nausea"", ""Dizziness""]",37.1,108,115,105,23,94.4,8.8,13.6,244,16.1,121,1.56,51,52,0,0,1,0,0,Cardiovascular Pattern
+P194,90,Other,"[""Cough"", ""Weakness"", ""Fatigue"", ""Breathlessness""]",39.5,112,135,95,23,90.7,13.9,12.1,336,122.3,179,1.0,25,32,1,0,0,0,0,Respiratory Pattern
+P195,29,Male,"[""Dizziness"", ""Weakness""]",37.0,97,105,80,18,98.1,9.8,13.2,233,23.0,195,3.3,52,69,1,0,1,0,0,Metabolic Pattern
+P196,34,Other,"[""Fatigue"", ""Nausea"", ""Vomiting"", ""Abdominal pain""]",38.4,100,122,78,17,98.5,18.2,13.8,333,95.3,133,0.8,131,190,0,0,0,0,0,Inflammatory Pattern
+P197,80,Other,"[""Breathlessness"", ""Fatigue"", ""Dizziness""]",37.0,108,145,109,21,92.2,11.0,13.5,285,,95,1.53,24,11,0,1,1,0,0,Cardiovascular Pattern
+P198,50,Female,"[""Fatigue"", ""Headache"", ""Nausea"", ""Dizziness""]",36.8,68,154,89,15,95.6,7.8,13.7,178,15.9,139,3.84,59,50,1,1,0,0,0,Metabolic Pattern
+P199,69,Male,"[""Fatigue"", ""Chest pain"", ""Breathlessness""]",36.9,128,138,82,23,92.4,10.9,14.5,302,14.2,125,1.88,16,39,0,1,1,0,1,Cardiovascular Pattern
+P200,53,Male,"[""Fever"", ""Fatigue"", ""Cough""]",38.7,103,111,78,23,87.0,13.6,13.8,258,117.7,152,1.13,52,35,1,0,0,1,1,Respiratory Pattern
+P201,61,Other,"[""Chest pain"", ""Breathlessness"", ""Nausea""]",36.6,130,149,103,24,94.7,8.8,12.4,251,14.8,160,1.26,39,33,0,1,0,0,0,Cardiovascular Pattern
+P202,27,Female,"[""Fever"", ""Abdominal pain"", ""Nausea"", ""Fatigue""]",38.5,108,138,76,22,97.6,20.7,13.6,385,108.5,135,1.29,56,147,0,0,0,0,0,Inflammatory Pattern
+P203,44,Female,"[""Nausea"", ""Fever"", ""Vomiting"", ""Fatigue""]",38.9,111,130,89,16,96.0,13.3,13.7,148,65.0,135,1.3,,,0,0,0,0,0,Inflammatory Pattern
+P204,63,Female,"[""Fever"", ""Breathlessness"", ""Cough"", ""Fatigue""]",39.7,110,136,71,28,93.2,20.2,11.9,316,85.7,76,1.08,37,36,1,0,0,0,0,Respiratory Pattern
+P205,38,Male,"[""Weakness"", ""Headache""]",36.6,66,112,66,16,99.9,6.0,13.1,228,4.4,75,0.93,12,16,0,0,0,0,0,Low-Risk General
+P206,58,Female,"[""Vomiting"", ""Fever"", ""Abdominal pain""]",38.9,97,137,83,18,96.9,14.2,14.2,333,92.7,71,0.71,72,146,0,0,0,0,1,Inflammatory Pattern
+P207,71,Female,"[""Weakness"", ""Dizziness"", ""Nausea"", ""Fatigue""]",37.2,103,137,77,21,97.4,9.2,10.8,212,15.9,298,3.88,50,34,1,1,0,0,1,Metabolic Pattern
+P208,76,Female,"[""Dizziness"", ""Breathlessness"", ""Chest pain""]",36.8,130,157,89,20,93.6,8.8,12.6,229,18.4,112,1.06,29,37,1,1,1,0,0,Cardiovascular Pattern
+P209,47,Male,"[""Headache"", ""Nausea"", ""Weakness"", ""Dizziness""]",37.6,67,136,74,11,97.6,8.6,11.0,187,21.8,289,3.33,36,33,1,1,1,0,1,Metabolic Pattern
+P210,18,Female,"[""Weakness""]",37.1,64,131,72,17,98.1,5.4,14.7,266,1.9,83,0.93,14,23,0,0,0,0,0,Low-Risk General
+P211,59,Male,"[""Dizziness"", ""Headache"", ""Fatigue""]",37.3,76,100,80,15,97.8,9.2,13.2,234,15.4,254,2.74,26,39,1,0,0,0,0,Metabolic Pattern
+P212,50,Female,"[""Nausea"", ""Headache""]",36.7,102,160,89,15,96.7,9.5,10.8,244,23.4,144,3.82,53,42,1,1,0,0,1,Metabolic Pattern
+P213,38,Female,"[""Fever"", ""Vomiting"", ""Abdominal pain"", ""Fatigue""]",39.1,116,94,76,19,98.7,23.6,11.5,292,102.6,124,0.87,122,192,0,0,0,0,0,Inflammatory Pattern
+P214,66,Female,"[""Breathlessness"", ""Fatigue"", ""Chest pain""]",36.7,84,182,101,19,96.5,10.7,12.5,247,30.8,142,1.44,-2,69,1,1,1,0,1,Cardiovascular Pattern
+P215,41,Male,"[""Headache"", ""Nausea"", ""Fatigue""]",36.8,90,125,80,17,96.8,8.3,12.4,185,14.2,304,4.0,42,54,1,1,1,0,0,Metabolic Pattern
+P216,56,Female,"[""Fatigue"", ""Abdominal pain"", ""Fever""]",38.9,94,86,89,21,98.4,16.4,11.7,252,94.9,143,1.01,53,155,0,0,0,0,0,Inflammatory Pattern
+P217,59,Male,"[""Nausea"", ""Dizziness"", ""Chest pain"", ""Breathlessness""]",37.1,90,131,90,19,92.1,9.7,12.5,311,14.0,145,1.55,28,45,0,1,0,0,0,Cardiovascular Pattern
+P218,67,Other,"[""Fatigue"", ""Cough"", ""Breathlessness""]",39.9,99,133,96,32,87.2,16.7,15.5,264,82.4,106,1.18,35,53,0,0,0,0,1,Respiratory Pattern
+P219,85,Other,"[""Fatigue"", ""Nausea"", ""Breathlessness""]",36.8,99,136,95,19,93.7,8.7,14.1,318,36.9,175,1.32,50,61,0,1,1,0,0,Cardiovascular Pattern
+P220,40,Other,"[""Weakness"", ""Dizziness"", ""Nausea"", ""Headache""]",37.4,96,141,89,17,95.2,8.4,12.3,195,20.3,197,2.78,65,46,1,1,0,0,0,Metabolic Pattern
+P221,71,Male,"[""Weakness"", ""Cough"", ""Fever"", ""Breathlessness""]",38.6,110,93,86,19,88.1,16.0,15.1,173,110.4,118,0.84,37,36,0,1,0,0,1,Respiratory Pattern
+P222,23,Other,"[""Headache"", ""Fatigue""]",36.5,63,115,73,14,98.9,5.9,13.1,301,,100,0.71,11,24,0,0,0,0,0,Low-Risk General
+P223,57,Male,"[""Nausea"", ""Fatigue"", ""Breathlessness""]",37.0,79,172,80,21,92.0,12.2,15.3,185,24.5,65,1.32,25,40,0,0,1,0,1,Cardiovascular Pattern
+P224,43,Female,"[""Weakness"", ""Dizziness"", ""Nausea"", ""Fatigue""]",37.8,83,130,84,17,97.4,8.7,13.6,186,8.6,252,2.17,56,41,1,1,0,0,0,Metabolic Pattern
+P225,37,Male,"[""Fatigue""]",36.5,72,122,67,12,99.7,5.5,15.0,263,,98,0.96,22,8,0,0,0,0,0,Low-Risk General
+P226,62,Male,"[""Breathlessness"", ""Fever"", ""Cough""]",39.4,104,123,84,23,90.5,18.0,11.3,273,116.1,146,1.24,27,38,0,0,0,1,0,Respiratory Pattern
+P227,62,Male,"[""Cough"", ""Breathlessness"", ""Fatigue"", ""Fever""]",39.0,106,131,80,31,90.6,19.7,11.1,316,86.4,140,0.85,32,20,0,0,0,0,0,Respiratory Pattern
+P228,32,Female,"[""Weakness"", ""Fatigue""]",37.3,85,120,102,18,96.1,8.4,12.5,251,24.6,377,3.77,73,10,1,1,0,0,0,Metabolic Pattern
+P229,45,Male,"[""Fatigue"", ""Cough"", ""Fever"", ""Breathlessness""]",38.2,73,121,87,24,92.7,16.3,11.5,329,49.5,110,0.82,30,30,1,0,0,1,1,Respiratory Pattern
+P230,63,Male,"[""Breathlessness"", ""Chest pain"", ""Fatigue"", ""Nausea""]",37.5,102,163,84,21,96.0,7.8,15.7,197,15.5,149,1.65,12,11,1,1,1,0,1,Cardiovascular Pattern
+P231,55,Male,"[""Dizziness"", ""Weakness"", ""Nausea""]",37.7,80,159,81,15,96.4,8.8,13.5,200,11.7,185,2.14,47,16,1,1,0,0,1,Metabolic Pattern
+P232,43,Male,"[""Headache"", ""Weakness""]",37.2,71,108,70,15,99.6,7.4,13.3,235,3.5,92,0.98,17,26,0,0,0,0,0,Low-Risk General
+P233,24,Male,"[""Weakness"", ""Headache""]",37.2,72,113,76,14,99.7,7.2,15.5,228,0.5,83,0.98,17,18,0,0,0,0,0,Low-Risk General
+P234,43,Other,"[""Abdominal pain"", ""Vomiting"", ""Fever""]",39.7,69,119,76,19,97.1,18.1,11.6,252,114.9,136,1.04,128,113,0,0,0,0,1,Inflammatory Pattern
+P235,61,Other,"[""Vomiting"", ""Fatigue"", ""Nausea""]",38.9,82,117,79,16,97.5,22.1,13.1,357,100.2,134,0.97,39,89,0,0,0,0,0,Inflammatory Pattern
+P236,71,Female,"[""Fever"", ""Fatigue"", ""Weakness""]",38.7,107,126,79,31,89.7,20.7,13.3,230,127.4,110,1.12,38,43,0,0,0,1,1,Respiratory Pattern
+P237,26,Other,"[""Fatigue"", ""Weakness""]",36.8,81,102,70,13,98.5,6.3,14.0,307,3.9,97,1.08,26,20,0,0,0,0,0,Low-Risk General
+P238,53,Other,"[""Cough"", ""Weakness"", ""Fever""]",38.2,99,135,81,27,90.2,11.9,12.4,233,90.9,145,0.9,,,0,0,0,1,1,Respiratory Pattern
+P239,35,Other,"[""Vomiting"", ""Nausea"", ""Fatigue"", ""Fever""]",38.6,112,134,84,23,96.4,13.3,13.7,332,73.7,103,1.06,156,160,0,0,0,0,0,Inflammatory Pattern
+P240,71,Female,"[""Weakness"", ""Fatigue"", ""Fever""]",39.1,90,117,95,27,89.0,19.0,12.9,254,74.3,127,0.98,19,40,1,0,0,0,1,Respiratory Pattern
+P241,44,Female,"[""Nausea"", ""Fatigue"", ""Fever""]",38.9,83,149,58,25,98.3,14.0,12.9,371,132.7,93,1.13,154,140,0,0,0,0,1,Inflammatory Pattern
+P242,51,Female,"[""Fatigue"", ""Weakness"", ""Fever"", ""Breathlessness""]",39.8,107,138,72,20,86.9,18.5,12.3,306,99.8,174,0.82,33,21,0,0,0,1,1,Respiratory Pattern
+P243,51,Other,"[""Vomiting"", ""Nausea"", ""Fatigue""]",38.1,85,109,94,20,96.8,17.6,14.7,336,85.3,108,1.26,178,55,0,0,0,0,1,Inflammatory Pattern
+P244,53,Female,"[""Nausea"", ""Dizziness"", ""Headache"", ""Weakness""]",36.7,71,127,98,17,96.3,8.7,11.7,225,10.6,227,2.7,57,69,1,1,0,0,0,Metabolic Pattern
+P245,18,Male,"[""Nausea"", ""Abdominal pain"", ""Fatigue""]",38.6,109,119,73,10,97.6,23.7,12.1,373,80.9,114,0.78,102,113,0,0,0,0,1,Inflammatory Pattern
+P246,36,Male,"[""Fatigue"", ""Headache""]",37.5,92,144,90,14,95.2,7.0,11.4,264,20.8,270,4.21,53,37,1,0,1,0,1,Metabolic Pattern
+P247,30,Other,"[""Weakness""]",36.9,75,126,80,16,98.4,6.0,16.2,252,2.6,97,0.79,21,13,0,0,0,0,0,Low-Risk General
+P248,54,Male,"[""Nausea"", ""Headache""]",37.1,77,140,88,15,96.6,8.8,12.2,188,20.3,271,2.32,30,42,1,1,0,0,0,Metabolic Pattern
+P249,65,Female,"[""Dizziness"", ""Breathlessness"", ""Chest pain"", ""Fatigue""]",37.2,115,137,106,20,93.8,10.8,15.9,219,31.3,156,1.33,34,51,0,1,1,0,1,Cardiovascular Pattern
+P250,54,Other,"[""Fever"", ""Vomiting"", ""Nausea"", ""Fatigue""]",39.8,89,121,73,19,97.5,15.5,14.8,406,125.6,121,1.0,152,145,0,0,0,0,0,Inflammatory Pattern
+P251,37,Male,"[""Fever"", ""Nausea"", ""Fatigue"", ""Vomiting""]",38.9,83,121,86,21,98.9,13.3,13.0,251,132.8,102,0.93,151,127,0,0,0,0,0,Inflammatory Pattern
+P252,46,Female,"[""Nausea"", ""Vomiting"", ""Fever"", ""Fatigue""]",38.9,109,135,70,15,97.7,18.2,14.5,250,97.0,114,1.28,,,0,0,0,0,0,Inflammatory Pattern
+P253,46,Female,"[""Breathlessness"", ""Fatigue"", ""Fever""]",39.0,118,143,81,27,87.8,14.8,11.4,272,,133,0.9,28,31,0,0,0,1,1,Respiratory Pattern
+P254,57,Female,"[""Weakness"", ""Fatigue"", ""Cough"", ""Fever""]",39.8,116,141,75,29,91.7,15.1,13.8,225,87.2,145,1.31,36,12,0,1,0,1,0,Respiratory Pattern
+P255,42,Male,"[""Vomiting"", ""Abdominal pain"", ""Fatigue"", ""Nausea""]",38.8,80,118,80,20,96.9,20.3,12.6,246,90.2,114,1.1,179,41,0,0,0,0,0,Inflammatory Pattern
+P256,47,Other,"[""Headache"", ""Nausea"", ""Dizziness"", ""Weakness""]",37.7,87,136,91,19,95.8,9.9,13.2,232,22.6,197,4.56,25,21,1,1,1,0,1,Metabolic Pattern
+P257,66,Male,"[""Fatigue"", ""Nausea"", ""Dizziness"", ""Breathlessness""]",37.0,120,165,93,20,95.6,8.5,14.2,250,28.8,194,1.7,46,84,1,1,1,0,0,Cardiovascular Pattern
+P258,41,Female,"[""Headache""]",36.5,70,99,64,14,99.9,8.3,13.9,269,1.0,86,1.02,17,32,0,0,0,0,0,Low-Risk General
+P259,64,Female,"[""Dizziness"", ""Fatigue"", ""Breathlessness""]",36.8,116,137,90,15,93.4,9.3,14.7,317,37.0,199,1.33,15,40,1,0,1,0,0,Cardiovascular Pattern
+P260,20,Other,"[""Vomiting"", ""Fever"", ""Nausea""]",39.2,88,93,73,15,96.7,17.9,11.5,443,133.0,103,0.88,194,107,0,0,0,0,1,Inflammatory Pattern
+P261,71,Female,"[""Fatigue"", ""Nausea"", ""Dizziness""]",37.6,76,158,84,13,97.5,10.4,13.4,249,22.0,221,3.05,28,21,1,0,0,0,1,Metabolic Pattern
+P262,30,Other,"[""Abdominal pain"", ""Fever"", ""Fatigue""]",39.1,94,127,83,22,98.9,22.1,14.2,362,122.4,90,0.89,52,151,0,0,0,0,1,Inflammatory Pattern
+P263,57,Male,"[""Fever"", ""Nausea"", ""Abdominal pain"", ""Vomiting""]",39.7,101,110,67,25,96.6,20.7,12.1,220,89.1,100,0.75,140,58,0,0,0,0,1,Inflammatory Pattern
+P264,53,Female,"[""Headache"", ""Weakness""]",37.0,77,132,76,13,99.0,5.5,16.0,157,1.6,68,0.97,15,27,0,0,0,0,0,Low-Risk General
+P265,56,Other,"[""Chest pain"", ""Nausea"", ""Breathlessness"", ""Fatigue""]",37.5,113,172,96,21,93.9,10.3,12.3,283,,216,1.42,51,33,0,0,1,0,0,Cardiovascular Pattern
+P266,74,Female,"[""Breathlessness"", ""Chest pain"", ""Dizziness"", ""Fatigue""]",36.8,75,154,102,19,93.4,9.9,12.6,250,15.3,147,1.78,52,22,0,1,0,0,0,Cardiovascular Pattern
+P267,51,Male,"[""Nausea"", ""Fatigue"", ""Chest pain""]",36.7,154,165,100,19,94.1,7.6,15.6,244,24.9,42,1.5,56,39,0,1,1,0,1,Cardiovascular Pattern
+P268,47,Female,"[""Fatigue"", ""Abdominal pain"", ""Vomiting""]",39.4,107,150,78,22,96.3,16.6,12.5,340,86.8,113,1.26,156,167,0,0,0,0,1,Inflammatory Pattern
+P269,71,Other,"[""Nausea"", ""Fatigue""]",37.4,84,155,85,16,98.4,9.1,11.2,145,8.8,212,2.25,34,73,1,1,0,0,1,Metabolic Pattern
+P270,70,Male,"[""Fatigue"", ""Weakness"", ""Cough""]",39.5,108,125,76,31,91.5,21.2,15.1,222,53.2,110,1.02,35,47,0,1,0,0,1,Respiratory Pattern
+P271,54,Other,"[""Fatigue"", ""Cough"", ""Breathlessness"", ""Fever""]",40.1,103,106,79,28,86.6,19.9,12.4,288,128.7,116,0.95,24,21,0,0,0,1,0,Respiratory Pattern
+P272,53,Female,"[""Vomiting"", ""Abdominal pain"", ""Fatigue"", ""Fever""]",38.2,92,114,81,21,96.2,22.6,12.5,253,112.0,103,1.07,113,269,0,0,0,0,0,Inflammatory Pattern
+P273,44,Other,"[""Fatigue"", ""Abdominal pain"", ""Fever"", ""Nausea""]",38.2,113,129,87,16,98.9,19.6,13.2,197,107.6,133,1.1,,,0,0,0,0,1,Inflammatory Pattern
+P274,46,Male,"[""Fever"", ""Cough"", ""Fatigue""]",39.5,94,115,69,19,87.4,14.7,13.1,249,59.1,125,0.89,24,5,0,0,0,1,1,Respiratory Pattern
+P275,76,Male,"[""Fatigue"", ""Weakness"", ""Breathlessness"", ""Cough""]",38.2,115,113,89,23,92.8,20.6,12.0,144,50.2,157,1.13,33,33,0,1,0,0,0,Respiratory Pattern
+P276,75,Other,"[""Fatigue"", ""Breathlessness"", ""Cough""]",38.6,106,160,74,29,92.3,18.4,11.6,238,126.6,162,1.3,24,17,0,0,0,0,0,Respiratory Pattern
+P277,49,Male,"[""Abdominal pain"", ""Fever"", ""Nausea"", ""Vomiting""]",38.4,102,85,66,17,98.0,14.9,14.5,346,97.8,121,0.77,86,149,0,0,0,0,0,Inflammatory Pattern
+P278,63,Other,"[""Nausea"", ""Abdominal pain"", ""Vomiting"", ""Fever""]",39.7,83,127,80,17,96.3,19.7,14.2,415,58.6,102,0.76,62,66,0,0,0,0,0,Inflammatory Pattern
+P279,28,Other,"[""Nausea"", ""Dizziness""]",37.6,88,149,92,20,95.0,10.3,12.2,197,12.9,258,4.03,55,25,1,1,0,0,0,Metabolic Pattern
+P280,64,Female,"[""Dizziness"", ""Nausea"", ""Fatigue""]",37.1,90,116,84,16,96.2,8.3,13.2,173,8.6,260,4.59,56,56,1,0,0,0,0,Metabolic Pattern
+P281,57,Other,"[""Dizziness"", ""Chest pain"", ""Breathlessness"", ""Fatigue""]",37.3,80,143,100,15,94.9,10.8,15.6,218,32.3,120,1.27,45,63,0,1,1,0,0,Cardiovascular Pattern
+P282,57,Other,"[""Weakness"", ""Fatigue"", ""Headache""]",37.7,80,138,91,15,96.5,8.8,13.1,226,16.6,207,2.43,46,8,1,1,0,0,1,Metabolic Pattern
+P283,18,Other,"[""Vomiting"", ""Fatigue"", ""Nausea""]",39.2,85,129,67,20,98.2,14.2,13.3,355,71.4,118,0.79,76,93,0,0,0,0,1,Inflammatory Pattern
+P284,63,Male,"[""Weakness"", ""Fatigue"", ""Breathlessness"", ""Cough""]",39.9,87,117,97,24,93.1,19.2,12.9,290,86.2,150,1.07,43,32,0,0,0,1,1,Respiratory Pattern
+P285,24,Male,"[""Fatigue""]",36.9,67,122,76,10,98.6,6.7,15.8,327,1.1,88,1.06,20,27,0,0,0,0,0,Low-Risk General
+P286,52,Female,"[""Fever"", ""Fatigue"", ""Cough""]",39.3,78,115,84,20,91.4,17.9,14.4,204,83.2,124,1.07,37,27,0,0,0,1,1,Respiratory Pattern
+P287,32,Female,"[""Weakness""]",36.4,60,108,68,13,99.3,5.3,16.3,296,,93,0.91,4,24,0,0,0,0,0,Low-Risk General
+P288,39,Male,"[""Weakness"", ""Dizziness"", ""Nausea""]",37.6,84,138,80,16,97.1,8.7,13.8,196,8.4,266,3.53,40,46,1,0,0,0,1,Metabolic Pattern
+P289,56,Female,"[""Cough"", ""Fever"", ""Breathlessness"", ""Fatigue""]",38.7,98,134,85,27,93.1,20.9,11.2,235,,109,1.11,27,5,1,1,0,1,1,Respiratory Pattern
+P290,33,Male,"[""Weakness"", ""Headache""]",36.6,58,113,73,16,98.2,7.2,13.7,283,4.4,89,1.01,14,22,0,0,0,0,0,Low-Risk General
+P291,74,Female,"[""Fever"", ""Weakness"", ""Cough""]",38.7,97,127,97,32,87.6,20.3,12.3,259,58.7,115,0.85,31,27,0,0,0,0,1,Respiratory Pattern
+P292,18,Female,"[""Weakness"", ""Fatigue""]",36.6,68,111,79,19,98.7,8.2,13.5,292,0.5,84,0.7,26,31,0,0,0,0,0,Low-Risk General
+P293,67,Male,"[""Nausea"", ""Chest pain"", ""Dizziness""]",37.0,88,189,120,18,93.7,11.6,15.2,282,37.6,163,1.17,50,77,0,1,1,0,1,Cardiovascular Pattern
+P294,35,Male,"[""Fatigue""]",37.2,81,120,73,12,98.0,8.4,15.2,271,2.5,98,0.77,25,34,0,0,0,0,0,Low-Risk General
+P295,61,Other,"[""Weakness"", ""Cough"", ""Breathlessness"", ""Fatigue""]",38.5,105,107,55,23,87.9,17.4,13.0,202,124.7,87,0.83,13,46,0,1,0,0,1,Respiratory Pattern
+P296,29,Male,"[""Fatigue""]",37.1,65,116,71,16,99.8,7.8,16.5,258,4.3,110,1.07,24,29,0,0,0,0,0,Low-Risk General
+P297,63,Female,"[""Breathlessness"", ""Cough"", ""Fever"", ""Fatigue""]",38.6,86,125,84,21,93.1,19.6,13.8,336,109.9,101,0.85,22,37,0,0,0,1,1,Respiratory Pattern
+P298,64,Other,"[""Chest pain"", ""Nausea"", ""Dizziness"", ""Fatigue""]",37.1,105,171,114,23,93.0,10.3,14.6,284,32.7,142,1.79,29,36,0,1,1,0,1,Cardiovascular Pattern
+P299,34,Male,"[""Weakness"", ""Nausea"", ""Dizziness"", ""Headache""]",37.2,77,134,84,17,95.4,9.1,12.3,219,19.1,198,3.56,60,51,1,1,1,0,0,Metabolic Pattern
+P300,68,Male,"[""Fatigue"", ""Breathlessness"", ""Fever""]",40.2,96,120,87,26,89.6,18.8,13.1,225,93.1,79,1.0,29,45,1,0,0,0,1,Respiratory Pattern
+P301,38,Female,"[""Fever"", ""Nausea"", ""Fatigue"", ""Abdominal pain""]",39.5,89,123,78,16,96.4,17.8,13.7,369,132.6,80,0.82,219,132,0,0,0,0,1,Inflammatory Pattern
+P302,70,Male,"[""Breathlessness"", ""Dizziness"", ""Chest pain""]",36.5,103,139,99,19,96.2,8.7,13.0,264,36.5,92,1.88,70,47,0,1,1,0,0,Cardiovascular Pattern
+P303,59,Female,"[""Chest pain"", ""Breathlessness"", ""Dizziness""]",36.8,124,163,105,19,92.6,9.8,14.3,213,24.7,131,1.71,13,39,1,0,0,0,1,Cardiovascular Pattern
+P304,40,Other,"[""Fever"", ""Fatigue"", ""Nausea"", ""Vomiting""]",39.1,100,102,83,25,97.4,15.6,12.3,257,68.4,123,1.21,124,161,0,0,0,0,0,Inflammatory Pattern
+P305,50,Male,"[""Fatigue"", ""Nausea"", ""Breathlessness"", ""Dizziness""]",36.9,114,140,98,24,93.2,7.4,15.6,247,19.7,95,1.07,39,45,1,1,1,0,1,Cardiovascular Pattern
+P306,55,Other,"[""Nausea"", ""Fatigue"", ""Vomiting"", ""Fever""]",38.0,89,146,79,16,97.2,19.4,13.8,239,119.7,119,0.79,99,161,0,0,0,0,0,Inflammatory Pattern
+P307,43,Female,"[""Vomiting"", ""Nausea"", ""Fever""]",39.4,82,118,72,15,97.1,19.4,11.9,333,135.2,151,1.2,129,112,0,0,0,0,0,Inflammatory Pattern
+P308,66,Female,"[""Fatigue"", ""Dizziness"", ""Headache"", ""Nausea""]",37.8,100,141,94,12,97.0,8.3,11.8,223,14.6,234,3.38,26,73,1,1,0,0,1,Metabolic Pattern
+P309,26,Other,"[""Fatigue""]",36.6,72,119,84,15,99.0,5.6,16.0,255,2.1,95,0.91,24,21,0,0,0,0,0,Low-Risk General
+P310,58,Male,"[""Fatigue"", ""Weakness"", ""Fever"", ""Cough""]",39.3,83,127,81,25,87.1,12.2,12.8,281,122.4,96,1.33,19,38,0,1,0,0,1,Respiratory Pattern
+P311,72,Other,"[""Breathlessness"", ""Nausea"", ""Dizziness"", ""Fatigue""]",37.0,83,164,93,18,96.3,8.3,15.5,221,19.1,119,1.82,31,38,1,1,0,0,1,Cardiovascular Pattern
+P312,39,Female,"[""Fatigue"", ""Cough"", ""Weakness"", ""Fever""]",39.2,97,129,76,18,88.9,19.3,14.9,254,54.7,127,1.35,24,52,0,1,0,1,1,Respiratory Pattern
+P313,35,Male,"[""Headache""]",36.6,73,110,74,18,99.4,5.5,14.3,277,1.4,109,0.79,24,19,0,0,0,0,0,Low-Risk General
+P314,20,Male,"[""Vomiting"", ""Fever"", ""Abdominal pain"", ""Fatigue""]",38.1,90,128,78,25,96.6,13.2,11.6,420,112.8,118,0.74,144,134,0,0,0,0,0,Inflammatory Pattern
+P315,66,Other,"[""Weakness"", ""Cough"", ""Breathlessness""]",38.9,108,118,85,27,86.1,18.4,11.1,287,63.1,131,0.97,46,32,0,0,0,0,1,Respiratory Pattern
+P316,43,Other,"[""Vomiting"", ""Abdominal pain"", ""Fatigue""]",38.6,87,111,91,16,96.4,14.9,14.2,246,111.6,63,0.74,223,152,0,0,0,0,0,Inflammatory Pattern
+P317,64,Other,"[""Fatigue"", ""Nausea"", ""Dizziness"", ""Weakness""]",37.5,87,137,85,15,95.5,7.4,10.6,233,23.7,141,4.1,24,36,1,1,0,0,0,Metabolic Pattern
+P318,71,Male,"[""Dizziness"", ""Nausea"", ""Chest pain""]",36.7,141,168,119,20,95.1,8.2,15.5,211,28.4,137,1.06,2,50,1,0,0,0,1,Cardiovascular Pattern
+P319,46,Male,"[""Vomiting"", ""Nausea"", ""Fatigue"", ""Abdominal pain""]",38.4,100,126,84,18,97.9,16.0,14.2,373,61.8,134,0.8,117,84,0,0,0,0,0,Inflammatory Pattern
+P320,51,Male,"[""Fever"", ""Abdominal pain"", ""Nausea"", ""Fatigue""]",39.0,101,134,75,21,97.7,18.3,12.7,301,132.9,102,0.7,172,78,0,0,0,0,0,Inflammatory Pattern
+P321,55,Other,"[""Fatigue"", ""Chest pain"", ""Nausea""]",36.9,122,144,94,18,96.1,11.0,14.0,253,24.7,119,1.59,18,74,1,1,0,0,0,Cardiovascular Pattern
+P322,35,Female,"[""Nausea"", ""Vomiting"", ""Abdominal pain"", ""Fever""]",38.0,98,102,85,17,97.8,22.9,13.3,333,125.5,134,0.85,87,264,0,0,0,0,0,Inflammatory Pattern
+P323,67,Other,"[""Breathlessness"", ""Dizziness"", ""Fatigue"", ""Chest pain""]",37.5,104,142,104,26,92.0,7.4,14.8,233,25.6,107,1.15,19,28,1,1,0,0,1,Cardiovascular Pattern
+P324,71,Male,"[""Breathlessness"", ""Fatigue"", ""Cough""]",39.4,84,106,86,27,88.8,14.4,12.5,211,102.2,110,0.86,,,1,0,0,0,1,Respiratory Pattern
+P325,60,Female,"[""Fatigue"", ""Fever"", ""Nausea"", ""Vomiting""]",39.2,90,115,84,19,97.2,19.7,14.9,366,,115,1.22,121,62,0,0,0,0,0,Inflammatory Pattern
+P326,69,Other,"[""Nausea"", ""Headache""]",37.3,81,126,83,17,98.5,10.8,13.3,247,8.8,244,4.28,37,55,1,1,0,0,0,Metabolic Pattern
+P327,55,Female,"[""Weakness""]",36.7,70,108,70,17,99.6,7.5,13.1,197,2.5,111,1.1,28,31,0,0,0,0,0,Low-Risk General
+P328,53,Other,"[""Weakness"", ""Dizziness""]",36.8,102,133,110,20,95.1,10.7,11.6,185,20.2,267,3.9,66,35,1,1,0,0,0,Metabolic Pattern
+P329,79,Male,"[""Dizziness"", ""Fatigue"", ""Nausea""]",37.3,99,150,80,22,94.0,8.3,13.0,125,19.6,164,1.53,48,64,0,1,1,0,1,Cardiovascular Pattern
+P330,83,Male,"[""Headache"", ""Nausea"", ""Weakness""]",37.6,92,138,81,14,95.4,6.5,13.5,180,13.0,324,2.69,41,34,1,1,0,0,0,Metabolic Pattern
+P331,69,Other,"[""Breathlessness"", ""Fatigue"", ""Nausea"", ""Dizziness""]",36.6,109,158,91,19,96.2,8.2,14.9,154,36.0,151,1.65,10,37,0,1,1,0,1,Cardiovascular Pattern
+P332,81,Female,"[""Chest pain"", ""Dizziness"", ""Breathlessness"", ""Nausea""]",37.3,103,152,88,25,95.9,7.3,15.7,218,27.0,188,1.4,8,52,1,0,1,0,0,Cardiovascular Pattern
+P333,33,Male,"[""Fever"", ""Weakness"", ""Cough""]",40.1,125,130,84,30,90.5,21.7,13.8,251,79.3,143,1.09,33,23,0,1,0,0,0,Respiratory Pattern
+P334,18,Other,"[""Fatigue"", ""Weakness""]",36.7,74,120,67,15,99.0,5.1,15.0,224,3.5,87,1.02,25,31,0,0,0,0,0,Low-Risk General
+P335,45,Male,"[""Weakness"", ""Headache"", ""Nausea"", ""Fatigue""]",37.1,102,153,73,16,97.9,8.9,13.4,207,19.1,240,3.88,34,62,1,1,1,0,0,Metabolic Pattern
+P336,72,Other,"[""Fatigue"", ""Nausea""]",37.6,115,151,79,16,96.9,8.4,13.8,243,24.1,240,3.5,49,21,1,1,0,0,0,Metabolic Pattern
+P337,48,Other,"[""Breathlessness"", ""Chest pain"", ""Fatigue""]",36.7,108,162,91,23,94.7,8.5,14.9,282,23.0,114,1.58,36,58,0,1,0,0,1,Cardiovascular Pattern
+P338,73,Other,"[""Dizziness"", ""Breathlessness"", ""Fatigue""]",37.4,99,183,75,26,93.1,8.5,14.1,221,20.6,107,1.08,61,31,1,1,1,0,1,Cardiovascular Pattern
+P339,41,Male,"[""Weakness"", ""Fatigue""]",36.5,83,111,82,14,98.2,5.2,14.1,277,3.5,101,0.97,33,26,0,0,0,0,0,Low-Risk General
+P340,39,Female,"[""Dizziness"", ""Weakness""]",37.4,96,158,85,21,97.2,8.2,13.2,191,15.8,193,3.29,34,54,1,1,0,0,0,Metabolic Pattern
+P341,79,Other,"[""Dizziness"", ""Chest pain"", ""Nausea"", ""Fatigue""]",36.6,81,155,103,19,93.3,12.1,15.2,231,,189,1.84,32,61,0,1,1,0,1,Cardiovascular Pattern
+P342,43,Male,"[""Weakness"", ""Fatigue""]",36.6,70,98,81,11,99.1,7.1,15.1,301,4.0,88,0.91,22,26,0,0,0,0,0,Low-Risk General
+P343,27,Female,"[""Fatigue""]",37.1,72,118,83,15,98.6,6.0,13.7,232,3.5,84,0.82,19,33,0,0,0,0,0,Low-Risk General
+P344,47,Other,"[""Fatigue"", ""Nausea"", ""Dizziness""]",37.3,83,155,106,17,95.7,8.1,10.9,193,16.7,241,2.52,57,53,1,1,0,0,1,Metabolic Pattern
+P345,44,Male,"[""Headache"", ""Weakness"", ""Fatigue""]",37.0,86,128,91,17,95.7,6.7,11.9,190,20.6,264,2.64,39,21,1,1,0,0,0,Metabolic Pattern
+P346,65,Female,"[""Breathlessness"", ""Chest pain"", ""Fatigue"", ""Dizziness""]",36.6,108,157,96,20,95.7,9.4,14.4,291,19.3,142,1.07,21,58,0,1,1,0,1,Cardiovascular Pattern
+P347,52,Female,"[""Fatigue"", ""Nausea"", ""Abdominal pain""]",39.8,113,105,71,19,96.1,23.9,14.8,341,91.2,108,0.73,111,104,0,0,0,0,0,Inflammatory Pattern
+P348,61,Other,"[""Fatigue"", ""Nausea"", ""Dizziness""]",36.9,86,156,81,17,95.2,6.7,10.7,209,16.0,205,4.55,,,1,0,0,0,1,Metabolic Pattern
+P349,44,Male,"[""Dizziness"", ""Nausea"", ""Fatigue""]",37.4,102,145,96,17,97.6,7.0,12.6,196,23.5,221,4.0,36,46,1,1,0,0,0,Metabolic Pattern
+P350,43,Male,"[""Nausea"", ""Fever"", ""Vomiting""]",39.3,111,107,84,15,97.0,17.0,13.7,357,96.0,129,1.01,201,113,0,0,0,0,1,Inflammatory Pattern
+P351,88,Other,"[""Fatigue"", ""Nausea"", ""Dizziness""]",37.1,124,147,97,17,94.5,9.1,14.4,260,17.4,185,1.53,40,89,0,1,1,0,1,Cardiovascular Pattern
+P352,65,Male,"[""Breathlessness"", ""Chest pain"", ""Dizziness""]",36.8,118,157,118,16,93.2,11.3,14.6,240,25.9,205,1.0,28,68,1,1,1,0,1,Cardiovascular Pattern
+P353,65,Female,"[""Vomiting"", ""Nausea"", ""Fatigue""]",39.7,94,138,99,10,98.3,21.6,11.9,271,118.4,93,1.22,169,97,0,0,0,0,0,Inflammatory Pattern
+P354,42,Female,"[""Headache"", ""Weakness""]",37.5,82,145,77,17,96.6,10.2,11.1,123,11.1,189,2.86,33,69,1,0,0,0,1,Metabolic Pattern
+P355,60,Other,"[""Weakness"", ""Fatigue"", ""Nausea"", ""Headache""]",37.1,87,171,90,17,95.2,7.6,10.8,152,10.4,234,4.71,43,48,1,0,0,0,0,Metabolic Pattern
+P356,53,Female,"[""Nausea"", ""Dizziness""]",37.2,88,162,86,19,95.1,6.7,12.4,276,15.1,302,2.1,46,51,1,1,0,0,1,Metabolic Pattern
+P357,49,Other,"[""Abdominal pain"", ""Nausea"", ""Fatigue""]",39.7,90,120,81,17,98.8,13.9,11.7,359,67.8,98,0.81,142,45,0,0,0,0,0,Inflammatory Pattern
+P358,44,Female,"[""Weakness"", ""Fatigue""]",37.1,76,106,76,15,99.9,5.5,15.3,235,3.4,102,1.01,19,24,0,0,0,0,0,Low-Risk General
+P359,61,Male,"[""Dizziness"", ""Nausea"", ""Breathlessness"", ""Fatigue""]",37.0,117,179,95,19,96.2,12.1,13.5,221,26.3,100,1.48,35,48,0,1,0,0,0,Cardiovascular Pattern
+P360,68,Male,"[""Dizziness"", ""Fatigue"", ""Chest pain""]",37.5,122,161,112,16,95.7,8.6,12.6,312,,65,1.22,42,42,1,0,1,0,1,Cardiovascular Pattern
+P361,74,Other,"[""Nausea"", ""Breathlessness"", ""Chest pain"", ""Dizziness""]",36.9,122,161,100,16,92.7,8.0,15.0,205,,130,1.37,27,31,0,1,1,0,0,Cardiovascular Pattern
+P362,74,Male,"[""Headache"", ""Dizziness"", ""Nausea""]",37.5,87,162,85,18,98.3,7.7,10.8,139,20.6,325,3.18,59,46,1,0,0,0,0,Metabolic Pattern
+P363,39,Other,"[""Fatigue"", ""Nausea""]",37.4,73,144,92,19,98.0,6.6,11.5,235,17.2,301,4.14,53,35,1,1,1,0,1,Metabolic Pattern
+P364,70,Female,"[""Fatigue"", ""Nausea""]",36.7,77,183,88,11,96.8,7.9,11.9,196,19.5,260,2.99,59,31,1,1,0,0,1,Metabolic Pattern
+P365,32,Male,"[""Headache"", ""Weakness""]",37.2,76,118,80,14,99.4,8.5,14.8,232,4.5,80,1.01,16,20,0,0,0,0,0,Low-Risk General
+P366,35,Male,"[""Headache"", ""Weakness""]",37.2,56,105,58,12,98.2,5.1,15.7,224,3.7,114,1.06,14,24,0,0,0,0,0,Low-Risk General
+P367,54,Other,"[""Fatigue"", ""Breathlessness"", ""Cough""]",40.2,105,129,71,33,93.3,16.6,12.6,205,69.4,95,1.21,39,21,0,1,0,1,1,Respiratory Pattern
+P368,38,Male,"[""Weakness""]",37.0,68,108,77,15,98.8,7.0,16.0,262,3.2,116,0.84,13,25,0,0,0,0,0,Low-Risk General
+P369,81,Male,"[""Cough"", ""Fatigue"", ""Weakness"", ""Fever""]",38.8,88,145,81,23,88.1,11.9,11.7,205,84.9,111,0.82,25,25,0,1,0,1,1,Respiratory Pattern
+P370,27,Other,"[""Fatigue"", ""Weakness""]",36.9,74,119,71,15,99.4,8.0,14.8,236,3.8,83,0.74,27,20,0,0,0,0,0,Low-Risk General
+P371,51,Female,"[""Fatigue"", ""Dizziness"", ""Nausea""]",37.1,112,165,84,22,95.3,10.2,12.6,221,29.3,165,1.74,18,47,0,0,1,0,1,Cardiovascular Pattern
+P372,62,Other,"[""Fatigue"", ""Breathlessness"", ""Dizziness""]",37.0,116,153,104,29,93.9,10.0,12.7,210,36.8,162,1.87,37,46,0,1,0,0,1,Cardiovascular Pattern
+P373,34,Female,"[""Fatigue"", ""Vomiting"", ""Abdominal pain"", ""Fever""]",38.8,101,109,86,20,96.9,20.3,13.9,364,108.9,101,1.24,,,0,0,0,0,0,Inflammatory Pattern
+P374,36,Male,"[""Weakness"", ""Headache""]",36.9,57,117,70,11,98.4,7.7,14.9,301,4.3,107,0.84,24,16,0,0,0,0,0,Low-Risk General
+P375,59,Female,"[""Fatigue"", ""Vomiting"", ""Nausea""]",39.6,96,119,95,19,96.7,22.9,13.0,250,56.3,126,1.19,160,168,0,0,0,0,1,Inflammatory Pattern
+P376,51,Female,"[""Nausea"", ""Fatigue"", ""Chest pain""]",37.4,103,150,76,14,92.8,12.0,14.1,220,32.8,146,1.45,22,24,0,1,1,0,1,Cardiovascular Pattern
+P377,78,Female,"[""Fever"", ""Weakness"", ""Breathlessness""]",38.9,103,127,76,19,88.7,14.0,15.0,280,70.2,106,1.27,30,39,0,1,0,0,0,Respiratory Pattern
+P378,37,Female,"[""Fever"", ""Cough"", ""Fatigue""]",38.7,104,133,94,17,87.6,12.6,14.6,210,98.2,139,0.93,13,47,0,0,0,1,1,Respiratory Pattern
+P379,55,Male,"[""Fever"", ""Abdominal pain"", ""Fatigue"", ""Nausea""]",39.7,103,123,80,22,96.5,22.5,11.9,320,73.4,108,1.14,153,176,0,0,0,0,0,Inflammatory Pattern
+P380,51,Female,"[""Headache"", ""Dizziness"", ""Nausea""]",37.7,94,136,93,20,97.5,10.8,10.9,224,10.8,175,2.66,42,27,1,1,0,0,1,Metabolic Pattern
+P381,55,Male,"[""Fatigue"", ""Breathlessness"", ""Chest pain""]",37.6,104,154,110,16,96.3,9.9,13.6,184,15.0,153,1.17,25,48,1,1,1,0,1,Cardiovascular Pattern
+P382,66,Other,"[""Cough"", ""Fever"", ""Weakness"", ""Breathlessness""]",39.4,96,126,79,30,92.6,20.5,11.3,300,109.3,108,0.99,29,42,0,0,0,0,1,Respiratory Pattern
+P383,64,Female,"[""Nausea"", ""Chest pain"", ""Breathlessness""]",36.8,113,164,87,26,92.2,10.5,12.3,178,14.5,158,1.25,17,48,0,1,1,0,1,Cardiovascular Pattern
+P384,22,Male,"[""Weakness"", ""Headache""]",36.4,73,118,80,16,99.4,6.5,13.6,277,2.0,116,1.06,38,22,0,0,0,0,0,Low-Risk General
+P385,57,Male,"[""Vomiting"", ""Fever"", ""Nausea"", ""Abdominal pain""]",39.7,99,115,75,18,97.8,22.4,14.6,340,109.1,103,0.84,77,82,0,0,0,0,1,Inflammatory Pattern
+P386,59,Female,"[""Breathlessness"", ""Cough"", ""Weakness""]",39.5,113,109,92,27,87.6,18.5,13.1,216,73.9,144,1.29,32,20,0,0,0,0,0,Respiratory Pattern
+P387,48,Female,"[""Fatigue"", ""Cough"", ""Fever""]",38.7,110,134,89,28,87.1,20.7,14.4,207,65.4,137,0.82,28,28,1,0,0,1,1,Respiratory Pattern
+P388,42,Male,"[""Nausea"", ""Dizziness"", ""Fatigue""]",36.7,71,166,90,18,95.6,7.7,12.6,190,8.8,237,2.77,50,46,1,0,0,0,1,Metabolic Pattern
+P389,31,Other,"[""Headache""]",37.0,64,122,72,15,98.7,6.0,15.1,309,3.4,103,0.98,26,18,0,0,0,0,0,Low-Risk General
+P390,65,Male,"[""Breathlessness"", ""Dizziness"", ""Nausea""]",36.7,126,156,94,22,93.2,7.4,14.7,276,37.2,102,1.52,28,48,1,0,1,0,0,Cardiovascular Pattern
+P391,58,Male,"[""Fatigue"", ""Weakness"", ""Breathlessness"", ""Cough""]",40.2,96,127,93,24,88.6,19.0,15.0,266,110.8,158,1.16,15,48,0,1,0,0,0,Respiratory Pattern
+P392,67,Male,"[""Headache"", ""Nausea"", ""Fatigue"", ""Dizziness""]",36.8,101,135,105,16,97.4,10.5,12.1,257,,224,3.93,56,32,1,1,0,0,1,Metabolic Pattern
+P393,76,Other,"[""Dizziness"", ""Chest pain"", ""Fatigue"", ""Breathlessness""]",37.5,128,171,112,18,94.5,7.9,13.9,234,,129,1.2,55,52,0,1,1,0,0,Cardiovascular Pattern
+P394,28,Other,"[""Headache""]",37.0,80,128,63,16,98.6,5.1,16.3,250,2.0,110,0.86,34,15,0,0,0,0,0,Low-Risk General
+P395,53,Female,"[""Cough"", ""Breathlessness"", ""Fever""]",39.0,92,131,90,22,89.5,13.4,14.5,369,115.9,150,1.22,38,16,0,1,0,1,0,Respiratory Pattern
+P396,57,Female,"[""Cough"", ""Breathlessness"", ""Fever""]",39.3,90,142,98,20,86.4,20.4,11.6,233,109.9,100,1.11,34,30,1,0,0,1,0,Respiratory Pattern
+P397,59,Male,"[""Nausea"", ""Fatigue"", ""Vomiting""]",39.3,106,112,78,16,96.9,16.4,15.0,205,55.5,84,0.77,131,208,0,0,0,0,1,Inflammatory Pattern
+P398,55,Other,"[""Headache"", ""Fatigue"", ""Dizziness""]",37.0,81,143,89,20,95.9,9.3,12.0,198,10.5,218,2.16,60,59,1,1,0,0,0,Metabolic Pattern
+P399,75,Male,"[""Fatigue"", ""Nausea"", ""Dizziness"", ""Chest pain""]",37.0,105,158,91,20,93.8,10.2,12.1,262,28.9,119,1.82,26,41,0,1,1,0,1,Cardiovascular Pattern
+P400,63,Other,"[""Weakness"", ""Fever"", ""Fatigue"", ""Breathlessness""]",38.8,99,114,78,18,88.1,19.5,12.4,172,99.8,159,1.03,17,38,0,0,0,0,0,Respiratory Pattern
+P401,18,Female,"[""Headache""]",36.4,64,117,71,13,99.4,6.1,13.8,214,3.6,110,0.74,15,32,0,0,0,0,0,Low-Risk General
+P402,21,Male,"[""Headache"", ""Weakness""]",37.1,84,124,66,12,99.8,6.1,15.4,174,2.8,117,0.78,21,31,0,0,0,0,0,Low-Risk General
+P403,60,Other,"[""Fever"", ""Cough"", ""Weakness""]",39.8,94,139,76,20,86.5,13.4,14.3,294,122.4,106,1.3,22,22,0,0,0,1,1,Respiratory Pattern
+P404,59,Male,"[""Breathlessness"", ""Dizziness"", ""Chest pain""]",36.6,112,179,93,22,96.2,12.1,13.0,235,34.7,127,1.87,57,58,0,0,1,0,1,Cardiovascular Pattern
+P405,90,Female,"[""Fever"", ""Breathlessness"", ""Cough""]",38.6,88,115,96,28,91.5,21.2,14.0,308,119.7,125,1.37,35,50,0,1,0,0,0,Respiratory Pattern
+P406,47,Other,"[""Cough"", ""Breathlessness"", ""Fatigue"", ""Fever""]",38.3,93,128,75,28,91.9,20.7,12.0,270,111.5,122,0.92,24,27,0,1,0,1,1,Respiratory Pattern
+P407,55,Other,"[""Vomiting"", ""Nausea"", ""Fever"", ""Fatigue""]",39.7,105,122,81,22,98.3,21.9,13.4,313,58.9,127,0.85,38,155,0,0,0,0,0,Inflammatory Pattern
+P408,47,Male,"[""Nausea"", ""Fever"", ""Fatigue"", ""Abdominal pain""]",39.2,121,137,81,23,98.4,22.9,14.5,262,86.2,120,1.03,147,112,0,0,0,0,0,Inflammatory Pattern
+P409,73,Female,"[""Breathlessness"", ""Fever"", ""Fatigue"", ""Weakness""]",39.9,91,115,80,23,91.4,19.8,11.2,251,65.0,85,1.37,38,57,1,0,0,1,0,Respiratory Pattern
+P410,66,Male,"[""Fatigue"", ""Nausea"", ""Chest pain"", ""Dizziness""]",36.7,116,172,107,21,94.4,8.9,12.1,166,36.0,93,1.82,47,25,0,1,0,0,1,Cardiovascular Pattern
+P411,52,Male,"[""Fatigue"", ""Fever"", ""Nausea"", ""Vomiting""]",38.3,81,104,88,20,96.0,21.8,14.8,295,62.3,115,0.9,181,85,0,0,0,0,0,Inflammatory Pattern
+P412,43,Other,"[""Headache""]",36.6,63,105,79,13,98.0,5.0,13.1,218,2.7,105,0.86,19,22,0,0,0,0,0,Low-Risk General
+P413,42,Female,"[""Fatigue"", ""Weakness""]",36.5,84,114,73,14,98.2,5.1,15.4,242,3.9,88,0.99,21,34,0,0,0,0,0,Low-Risk General
+P414,54,Female,"[""Fatigue"", ""Nausea"", ""Fever""]",38.2,90,121,83,19,97.7,22.1,13.9,367,79.1,124,0.71,91,110,0,0,0,0,0,Inflammatory Pattern
+P415,29,Female,"[""Fatigue""]",37.1,68,119,75,12,99.0,7.7,14.8,209,2.8,87,1.03,26,35,0,0,0,0,0,Low-Risk General
+P416,61,Male,"[""Weakness"", ""Fatigue"", ""Breathlessness""]",39.6,110,112,92,26,89.9,16.1,12.2,281,65.7,107,0.95,33,23,0,0,0,1,1,Respiratory Pattern
+P417,60,Female,"[""Fatigue"", ""Breathlessness"", ""Nausea"", ""Dizziness""]",36.8,107,179,66,23,96.1,10.7,14.7,224,27.7,149,1.11,26,30,1,1,0,0,1,Cardiovascular Pattern
+P418,65,Female,"[""Weakness"", ""Fatigue"", ""Breathlessness"", ""Fever""]",38.4,114,131,70,13,87.0,20.6,15.1,298,79.2,111,1.13,30,29,0,0,0,1,0,Respiratory Pattern
+P419,75,Female,"[""Fever"", ""Vomiting"", ""Nausea"", ""Abdominal pain""]",39.3,87,118,66,20,96.5,13.1,13.6,245,112.3,98,0.81,136,133,0,0,0,0,0,Inflammatory Pattern
+P420,48,Other,"[""Breathlessness"", ""Weakness"", ""Cough"", ""Fatigue""]",39.7,105,126,101,22,91.5,16.0,12.3,291,74.5,110,0.9,29,48,1,1,0,0,1,Respiratory Pattern
+P421,68,Female,"[""Chest pain"", ""Nausea"", ""Dizziness""]",37.1,117,162,111,22,93.3,12.2,13.7,201,23.6,167,1.83,51,39,1,0,1,0,1,Cardiovascular Pattern
+P422,18,Female,"[""Nausea"", ""Abdominal pain"", ""Fatigue""]",38.3,89,135,76,14,96.2,20.6,14.6,336,114.9,117,1.01,146,199,0,0,0,0,0,Inflammatory Pattern
+P423,54,Male,"[""Nausea"", ""Vomiting"", ""Fatigue""]",38.3,104,130,64,18,98.6,23.5,14.5,349,118.7,122,1.03,125,148,0,0,0,0,0,Inflammatory Pattern
+P424,62,Other,"[""Headache"", ""Weakness"", ""Dizziness""]",37.6,98,125,75,17,97.1,8.9,11.5,229,23.2,365,4.16,30,49,1,1,0,0,1,Metabolic Pattern
+P425,59,Female,"[""Fatigue"", ""Nausea"", ""Dizziness"", ""Chest pain""]",36.5,85,153,106,22,94.5,8.8,14.7,202,22.7,153,1.23,25,67,1,1,1,0,1,Cardiovascular Pattern
+P426,60,Other,"[""Dizziness"", ""Nausea""]",36.8,64,132,96,17,97.7,8.0,11.7,211,8.8,221,2.67,2,33,1,0,0,0,0,Metabolic Pattern
+P427,67,Female,"[""Chest pain"", ""Nausea"", ""Dizziness""]",36.6,133,138,106,22,93.0,11.2,13.0,271,19.1,183,1.59,58,68,1,1,1,0,0,Cardiovascular Pattern
+P428,72,Other,"[""Fever"", ""Fatigue"", ""Weakness""]",39.8,115,107,67,27,88.3,16.3,11.4,324,77.0,118,1.06,33,47,1,1,0,0,0,Respiratory Pattern
+P429,47,Female,"[""Nausea"", ""Abdominal pain"", ""Fatigue"", ""Fever""]",38.8,77,115,78,18,97.9,13.9,13.5,341,72.7,140,0.75,103,61,0,0,0,0,0,Inflammatory Pattern
+P430,71,Female,"[""Fatigue"", ""Breathlessness"", ""Weakness"", ""Cough""]",39.9,119,133,65,20,88.0,13.7,13.5,201,126.6,127,0.94,20,38,0,0,0,0,0,Respiratory Pattern
+P431,68,Male,"[""Cough"", ""Fatigue"", ""Fever""]",38.2,118,119,84,26,91.6,17.2,12.8,205,70.2,105,1.35,35,28,0,1,0,0,1,Respiratory Pattern
+P432,30,Other,"[""Fatigue"", ""Vomiting"", ""Nausea"", ""Fever""]",38.4,86,142,98,18,96.5,20.9,13.2,294,95.0,126,1.3,194,142,0,0,0,0,1,Inflammatory Pattern
+P433,51,Other,"[""Weakness"", ""Cough"", ""Fatigue"", ""Fever""]",40.0,103,123,100,28,88.3,18.1,12.8,211,66.7,89,0.85,28,46,1,1,0,1,0,Respiratory Pattern
+P434,77,Other,"[""Nausea"", ""Fatigue"", ""Chest pain"", ""Dizziness""]",36.5,111,167,112,19,92.6,9.6,12.0,345,15.6,183,1.73,24,57,1,1,1,0,1,Cardiovascular Pattern
+P435,62,Other,"[""Breathlessness"", ""Dizziness"", ""Fatigue""]",36.7,115,137,102,20,92.5,11.9,14.6,207,16.6,185,1.69,18,37,0,0,0,0,1,Cardiovascular Pattern
+P436,43,Male,"[""Fatigue"", ""Headache""]",36.4,70,121,72,16,99.8,7.1,13.1,243,0.7,105,0.98,21,33,0,0,0,0,0,Low-Risk General
+P437,49,Female,"[""Headache"", ""Fatigue""]",37.0,71,111,69,16,99.2,7.5,15.5,270,1.2,94,1.03,19,29,0,0,0,0,0,Low-Risk General
+P438,42,Female,"[""Weakness""]",36.9,87,119,79,13,99.4,8.2,15.1,289,4.3,87,0.86,27,15,0,0,0,0,0,Low-Risk General
+P439,54,Other,"[""Nausea"", ""Weakness""]",37.4,94,122,94,19,96.1,9.0,10.9,130,15.9,250,4.61,,,1,1,1,0,1,Metabolic Pattern
+P440,72,Male,"[""Breathlessness"", ""Fatigue"", ""Fever""]",39.9,111,123,71,16,92.5,19.3,14.3,241,69.4,147,0.97,22,30,0,1,0,1,0,Respiratory Pattern
+P441,48,Female,"[""Cough"", ""Fever"", ""Breathlessness"", ""Weakness""]",38.4,96,85,68,19,91.1,14.5,12.5,289,127.3,85,0.96,26,26,1,1,0,0,0,Respiratory Pattern
+P442,54,Female,"[""Dizziness"", ""Headache"", ""Nausea""]",37.3,103,147,75,14,95.0,8.4,11.7,198,23.5,221,2.93,35,43,1,1,0,0,0,Metabolic Pattern
+P443,63,Male,"[""Fatigue"", ""Nausea"", ""Breathlessness"", ""Chest pain""]",37.6,124,176,83,23,93.9,11.3,15.8,208,22.4,181,1.83,43,83,0,1,0,0,0,Cardiovascular Pattern
+P444,18,Male,"[""Headache"", ""Fatigue""]",36.8,72,118,83,18,98.6,5.3,13.8,254,1.5,96,0.97,25,18,0,0,0,0,0,Low-Risk General
+P445,47,Other,"[""Headache"", ""Dizziness"", ""Nausea""]",36.9,92,155,83,15,96.4,8.0,11.5,295,19.5,286,3.54,30,30,1,0,1,0,0,Metabolic Pattern
+P446,76,Other,"[""Nausea"", ""Fatigue"", ""Chest pain""]",37.2,116,163,101,24,93.5,10.6,13.7,230,33.4,173,1.03,55,43,1,1,0,0,1,Cardiovascular Pattern
+P447,58,Female,"[""Cough"", ""Fatigue"", ""Breathlessness"", ""Weakness""]",38.1,100,115,69,23,89.2,19.3,11.5,267,113.6,149,1.27,25,29,0,1,0,1,1,Respiratory Pattern
+P448,35,Male,"[""Weakness"", ""Breathlessness"", ""Fever"", ""Cough""]",39.0,98,128,89,21,86.4,17.8,12.7,193,110.2,141,0.81,31,44,0,0,0,1,1,Respiratory Pattern
+P449,55,Female,"[""Weakness"", ""Dizziness""]",37.4,92,130,91,20,95.9,10.2,13.4,199,20.5,185,2.31,42,36,1,0,0,0,0,Metabolic Pattern
+P450,62,Other,"[""Fatigue"", ""Weakness"", ""Fever"", ""Breathlessness""]",40.1,101,149,96,19,89.3,12.7,11.9,257,88.7,146,1.31,32,56,0,0,0,0,1,Respiratory Pattern
+P451,73,Other,"[""Dizziness"", ""Nausea"", ""Chest pain""]",36.9,114,173,99,22,94.7,12.4,13.3,265,17.8,170,1.06,41,41,0,1,1,0,1,Cardiovascular Pattern
+P452,76,Female,"[""Breathlessness"", ""Fatigue"", ""Fever"", ""Cough""]",39.9,87,128,86,28,89.0,18.4,13.6,310,128.7,138,0.85,31,20,0,0,0,1,1,Respiratory Pattern
+P453,18,Other,"[""Vomiting"", ""Fever"", ""Abdominal pain""]",38.7,112,108,75,20,97.2,15.3,11.9,300,79.6,137,1.29,67,202,0,0,0,0,0,Inflammatory Pattern
+P454,62,Female,"[""Dizziness"", ""Fatigue"", ""Chest pain""]",37.4,93,155,104,18,96.2,8.0,13.2,200,24.1,133,1.16,52,38,0,0,1,0,0,Cardiovascular Pattern
+P455,27,Male,"[""Vomiting"", ""Nausea"", ""Abdominal pain""]",39.0,84,115,78,15,98.7,20.2,13.4,381,128.4,121,0.92,103,161,0,0,0,0,0,Inflammatory Pattern
+P456,59,Male,"[""Nausea"", ""Fatigue"", ""Breathlessness""]",36.8,73,122,107,13,94.3,7.6,14.4,190,16.1,208,1.42,41,47,1,1,0,0,0,Cardiovascular Pattern
+P457,73,Female,"[""Fatigue"", ""Nausea"", ""Dizziness""]",36.6,97,167,77,20,93.8,12.1,14.5,227,23.4,143,1.76,33,49,0,1,1,0,0,Cardiovascular Pattern
+P458,37,Female,"[""Nausea"", ""Fatigue""]",37.1,83,116,88,15,97.4,8.0,12.1,208,8.6,280,2.48,41,41,1,0,0,0,0,Metabolic Pattern
+P459,41,Female,"[""Weakness"", ""Dizziness"", ""Fatigue""]",37.3,89,149,82,17,97.0,7.2,10.5,287,14.2,139,3.5,43,12,1,0,0,0,0,Metabolic Pattern
+P460,67,Female,"[""Nausea"", ""Fatigue"", ""Chest pain""]",37.0,93,173,105,21,92.9,7.8,14.4,236,17.1,122,1.45,20,37,1,1,0,0,0,Cardiovascular Pattern
+P461,60,Male,"[""Nausea"", ""Chest pain"", ""Breathlessness"", ""Fatigue""]",37.6,114,176,103,21,95.3,10.8,14.6,274,18.4,125,1.04,24,30,1,1,0,0,1,Cardiovascular Pattern
+P462,48,Male,"[""Weakness"", ""Fatigue"", ""Cough""]",38.3,104,124,82,23,89.6,16.1,13.1,314,95.9,144,0.98,42,35,0,0,0,1,0,Respiratory Pattern
+P463,45,Male,"[""Fever"", ""Nausea"", ""Fatigue"", ""Vomiting""]",38.9,108,133,75,20,96.8,19.2,12.6,276,92.4,162,0.99,109,82,0,0,0,0,0,Inflammatory Pattern
+P464,86,Female,"[""Headache"", ""Nausea""]",37.4,81,139,90,13,95.7,8.8,11.6,191,13.1,235,3.75,37,38,1,1,0,0,0,Metabolic Pattern
+P465,75,Other,"[""Breathlessness"", ""Cough"", ""Fatigue"", ""Weakness""]",40.1,99,135,73,22,92.2,14.8,12.4,335,92.9,125,1.36,30,46,0,1,0,1,1,Respiratory Pattern
+P466,50,Female,"[""Vomiting"", ""Abdominal pain"", ""Nausea"", ""Fatigue""]",39.4,88,137,79,20,97.5,22.4,11.9,312,95.8,132,1.13,7,165,0,0,0,0,1,Inflammatory Pattern
+P467,34,Female,"[""Headache"", ""Weakness""]",36.4,95,112,82,13,98.9,8.1,13.3,260,4.4,89,1.05,9,16,0,0,0,0,0,Low-Risk General
+P468,57,Other,"[""Nausea"", ""Dizziness"", ""Fatigue"", ""Chest pain""]",36.7,113,118,91,16,96.3,9.0,15.1,239,20.4,115,1.2,33,57,0,1,1,0,0,Cardiovascular Pattern
+P469,62,Female,"[""Dizziness"", ""Nausea""]",36.6,69,138,88,13,97.8,8.7,12.5,208,18.8,233,4.73,25,45,1,0,0,0,1,Metabolic Pattern
+P470,20,Male,"[""Fatigue"", ""Weakness""]",36.8,81,109,74,14,99.3,6.2,14.8,227,2.2,71,0.71,,,0,0,0,0,0,Low-Risk General
+P471,75,Female,"[""Nausea"", ""Fatigue"", ""Dizziness"", ""Chest pain""]",37.3,133,139,92,25,92.7,11.3,12.8,178,16.7,186,1.76,43,52,0,1,1,0,1,Cardiovascular Pattern
+P472,39,Female,"[""Weakness"", ""Nausea""]",36.6,105,115,103,20,95.1,10.4,13.5,213,15.5,255,2.64,47,23,1,1,0,0,0,Metabolic Pattern
+P473,68,Male,"[""Breathlessness"", ""Fatigue"", ""Fever"", ""Weakness""]",40.2,111,132,73,24,89.4,11.6,14.6,284,79.0,139,1.37,24,41,0,1,0,0,1,Respiratory Pattern
+P474,43,Female,"[""Nausea"", ""Fatigue"", ""Headache"", ""Dizziness""]",36.8,100,143,94,18,95.1,9.2,11.2,207,18.5,198,4.32,36,46,1,1,1,0,0,Metabolic Pattern
+P475,41,Male,"[""Weakness"", ""Fatigue""]",37.1,73,117,81,15,99.8,5.1,16.1,219,,103,0.94,23,19,0,0,0,0,0,Low-Risk General
+P476,56,Male,"[""Fatigue"", ""Weakness"", ""Cough""]",39.9,95,126,70,21,88.3,16.4,15.1,310,76.1,151,1.17,29,21,0,0,0,1,1,Respiratory Pattern
+P477,63,Male,"[""Nausea"", ""Chest pain"", ""Fatigue"", ""Dizziness""]",36.8,86,153,87,20,94.7,9.8,16.0,191,18.9,165,1.34,32,65,0,1,0,0,0,Cardiovascular Pattern
+P478,73,Other,"[""Cough"", ""Weakness"", ""Fatigue""]",38.8,89,120,74,29,92.1,17.6,13.0,275,91.4,158,0.87,28,55,0,1,0,0,1,Respiratory Pattern
+P479,76,Other,"[""Nausea"", ""Fatigue"", ""Weakness"", ""Dizziness""]",37.4,99,150,86,17,95.4,9.0,11.5,253,22.8,221,4.76,60,66,1,1,0,0,0,Metabolic Pattern
+P480,45,Male,"[""Headache""]",37.0,65,126,82,18,99.1,7.8,14.3,260,2.6,120,0.85,25,26,0,0,0,0,0,Low-Risk General
+P481,49,Other,"[""Headache"", ""Fatigue""]",36.4,87,125,74,13,98.8,6.7,14.1,277,3.4,90,0.98,24,21,0,0,0,0,0,Low-Risk General
+P482,50,Female,"[""Cough"", ""Fatigue"", ""Fever""]",39.7,112,93,82,32,90.8,15.6,11.9,269,126.9,116,0.97,36,31,0,0,0,1,1,Respiratory Pattern
+P483,43,Male,"[""Cough"", ""Fatigue"", ""Weakness"", ""Fever""]",39.2,100,121,78,29,91.4,20.7,15.3,202,48.5,135,1.18,25,28,0,0,0,1,1,Respiratory Pattern
+P484,49,Other,"[""Nausea"", ""Fever"", ""Vomiting"", ""Fatigue""]",38.8,80,100,75,23,96.8,15.8,13.3,210,138.6,133,0.75,190,193,0,0,0,0,1,Inflammatory Pattern
+P485,72,Male,"[""Fatigue"", ""Fever"", ""Vomiting"", ""Nausea""]",38.1,95,142,88,18,96.3,23.6,12.3,288,104.3,108,1.19,65,137,0,0,0,0,0,Inflammatory Pattern
+P486,30,Male,"[""Weakness"", ""Fatigue""]",36.9,82,119,90,15,98.2,8.2,15.8,241,1.5,68,1.03,11,39,0,0,0,0,0,Low-Risk General
+P487,52,Female,"[""Cough"", ""Breathlessness"", ""Fatigue""]",38.9,85,111,96,29,88.5,18.0,14.3,178,116.1,131,0.86,50,31,0,0,0,1,1,Respiratory Pattern
+P488,49,Female,"[""Breathlessness"", ""Nausea"", ""Fatigue"", ""Chest pain""]",36.6,81,135,93,17,95.4,10.0,13.6,229,14.4,118,1.54,50,35,1,1,1,0,1,Cardiovascular Pattern
+P489,18,Female,"[""Headache"", ""Fatigue""]",37.1,58,118,79,15,98.4,7.4,13.8,249,4.0,71,0.76,26,18,0,0,0,0,0,Low-Risk General
+P490,87,Other,"[""Dizziness"", ""Weakness"", ""Headache"", ""Fatigue""]",37.6,75,131,107,13,97.6,9.7,13.9,220,14.3,203,4.53,57,37,1,1,0,0,1,Metabolic Pattern
+P491,60,Other,"[""Nausea"", ""Dizziness"", ""Chest pain"", ""Fatigue""]",37.3,106,149,81,12,94.1,10.2,12.2,196,28.1,102,1.86,40,58,0,1,1,0,0,Cardiovascular Pattern
+P492,71,Other,"[""Weakness"", ""Breathlessness"", ""Fatigue"", ""Fever""]",39.6,83,129,109,20,87.6,16.2,13.4,239,93.4,105,1.33,37,32,0,0,0,1,1,Respiratory Pattern
+P493,64,Male,"[""Nausea"", ""Fatigue"", ""Dizziness""]",36.7,104,172,120,22,95.8,7.2,15.7,105,30.9,132,1.36,45,39,0,1,1,0,0,Cardiovascular Pattern
+P494,40,Female,"[""Fatigue"", ""Fever"", ""Weakness"", ""Cough""]",38.9,107,171,75,22,91.6,17.0,11.1,148,50.0,81,1.02,44,61,0,1,0,1,1,Respiratory Pattern
+P495,39,Male,"[""Weakness""]",36.6,82,108,86,17,99.1,8.1,15.5,225,4.0,94,1.03,25,25,0,0,0,0,0,Low-Risk General
+P496,34,Female,"[""Headache"", ""Fatigue""]",36.9,67,115,79,15,98.3,7.1,14.2,200,3.8,96,1.01,31,20,0,0,0,0,0,Low-Risk General
+P497,62,Female,"[""Fever"", ""Fatigue"", ""Breathlessness"", ""Weakness""]",39.9,113,146,89,29,91.3,17.0,14.4,226,99.7,122,1.26,37,30,0,1,0,1,1,Respiratory Pattern
+P498,77,Female,"[""Chest pain"", ""Nausea"", ""Fatigue"", ""Dizziness""]",36.8,82,134,81,19,95.3,9.9,12.2,230,37.1,161,1.05,53,15,0,1,1,0,1,Cardiovascular Pattern
+P499,72,Male,"[""Cough"", ""Fatigue"", ""Fever""]",39.3,90,124,80,18,86.9,14.5,15.1,332,101.1,144,0.91,27,28,0,0,0,1,0,Respiratory Pattern
+P500,39,Other,"[""Headache"", ""Fatigue""]",36.7,86,118,67,17,98.4,7.7,13.9,303,0.7,93,1.01,29,31,0,0,0,0,0,Low-Risk General
